@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:image"
+      content="../Imagenes/Universidad-de-carabobo.png"
+    />
+    <title>Microcontroladores AVR de Atmel</title>
+    <link rel="shortcut icon" href="..\Imagenes\Universidad-de-carabobo.png" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="..\css\prueba.css" />
+    <link rel="stylesheet" href="..\css\media-screen.css" />
+    <link rel="stylesheet" href="..\css\descripcion-de-las-librerias.css" />
+    <link rel="stylesheet" href="..\css\Manejo-de-la-pantalla-LCD.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css"
+    />
+    <link rel="stylesheet" href="..\css\como-agregar-librerias.css" />
+    <!-- Js file -->
+    <script src="../Js/prueba.js" defer></script>
+    <script src="../Js/menu.js" defer></script>
+    <script src="../Js/btn.js" defer></script>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+  </head>
+
+  <body>
+    <style>
+      p {
+        margin: 0 !important;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <!-- Top content -->
+    <div class="top-content">
+      <div class="icon-bar">
+        <a class="microchip" href="../index.html">
+          <i class="fas fa-microchip"></i>
+        </a>
+      </div>
+      <label class="label"
+        ><a href="../index.html">Microprocesadores UC</a></label
+      >
+
+      <div class="dropdow newDp inDevice">
+        <a class="darkTheme" style="cursor: pointer"
+          ><i class="fas fa-adjust" style="color: white"></i
+        ></a>
+      </div>
+
+      <ul>
+        <!-- Seccion de la teoria-->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Teoria</a></li>
+
+          <div class="dropdow-content">
+            <div class="dropdow-content1">
+              <a href="#" class="tema1">Tema 1</a>
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Sistemas microprogramables</a
+                >
+                <a href="Dispositivos-digitales-microprogramables.html"
+                  >Microcontroladores/Microprocesadores</a
+                >
+              </ul>
+            </div>
+
+            <div class="dropdow-content2">
+              <a href="#">Tema 2</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Arquitectura de un sistema microprogramable</a
+                >
+                <a href="ATmega328P.html">Arquitectura y Caracteristicas</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content3">
+              <a href="#">Tema 3</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Temporizaciones e interrupciones</a
+                >
+                <a href="Timer-0.html">Timer 0</a>
+                <a href="Timer-1.html">Timer 1</a>
+                <a href="Timer-2.html">Timer 2</a>
+                <a href="Manejo-de-interrupciones.html"
+                  >Manejo de interrupciones</a
+                >
+                <a href="Modulación-por-ancho-de-pulso.html"
+                  >Modulación por ancho de pulso <i>PWM</i></a
+                >
+                <a href="Timer0-Modo-Fase-Correcta.html"
+                  >PWM Timer0 Modo Fase Correcta</a
+                >
+                <a href="Timer0-Modo-Rapido.html">PWM Timer0 Modo Rapido</a>
+                <a href="Timer1-Modo-Fase-Correcta.html"
+                  >PWM Timer1 Modo Fase Correcta</a
+                >
+                <a href="Timer1-Modo-Rapido.html">PWM Timer1 Modo Rapido</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content4">
+              <a href="#">Tema 4</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Conversión Digital/Analógica - Analógica/Digital</a
+                >
+                <a href="Convertidor-ADC.html">Convertidor ADC</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content5">
+              <a href="#">Tema 5</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Comunicación serial</a
+                >
+                <a href="USART.html">Comunicación Serial USART</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de laboratorio -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Laboratorio</a></li>
+
+          <div class="dropdow-content">
+                <a href="Instalacion-de-Proteus-8.5.html"
+                  >Instalación de proteus 8.5</a
+                >
+
+                <a href="como-agregar-librerias-a-proteus-8.5.html"
+                  >Como agregar librerias adicionales en Proteus 8.5</a
+                >
+                <a href="Descripcion-y-manejo.html"
+                  >Descripcion y manejo de las librerias</a
+                >
+                <a href="IDE-Arduino.html">IDE software Arduino</a>
+                <a href="IDE-AVR-Studio-7.html">IDE AVR Studio 7</a>
+                <a href="Programar-Arduino-AVRStudio.html"
+                  >Programar el Arduino con AVR Studio 7</a
+                >
+                <a href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                  >Introduccion al lenguaje de programacion en C</a
+                >
+                <a href="manejo-del-display-7seg.html"
+                  >Manejo del display 7 Segmentos</a
+                >
+                <a href="Manejo-de-la-pantalla-LCD.html"
+                  >Manejo de la pantalla LCD</a
+                >
+              
+          </div>
+        </div>
+        <!-- Seccion de descarga -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Descargas</a></li>
+          <div class="dropdow-content">
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+        <!---->
+        <div class="dropdow newDp">
+          <li>
+            <a class="darkTheme" style="cursor: pointer"
+              ><i class="fas fa-adjust" style="color: white"></i
+            ></a>
+          </li>
+          <div class="dropdow-content"></div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- Haburguer menu -->
+    <div id="nav-icon2">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Menu in devices -->
+
+    <div class="content-device">
+      <ul>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction()">Teoria</li>
+
+          <div class="dropdow-content device">
+            <a href="#" class="tema0 tema"
+              >Tema 1: Sistemas microprogramables</a
+            >
+
+            <div class="subContent" style="margin-left: 2%">
+              <a
+                style="padding-right: 0"
+                class="before"
+                href="Dispositivos-digitales-microprogramables.html"
+                >Microcontroladores/Microprocesadores</a
+              >
+            </div>
+
+            <a class="tema1 tema" href="#"
+              >Tema 2: Arquitectura de un sistema microprogramable</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="ATmega328P.html"
+                >Arquitectura y Caracteristicas</a
+              >
+            </div>
+
+            <a class="tema2 tema" href="#"
+              >Tema 3: Temporizaciones e interrupciones</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Timer-0.html">Timer 0</a>
+              <a class="before" href="Timer-1.html">Timer 1</a>
+              <a class="before" href="Timer-2.html">Timer 2</a>
+              <a class="before" href="Manejo-de-interrupciones.html"
+                >Manejo de interrupciones</a
+              >
+              <a class="before" href="Modulación-por-ancho-de-pulso.html"
+                >Modulación por ancho de pulso <i>PWM</i></a
+              >
+              <a class="before" href="Timer0-Modo-Fase-Correcta.html"
+                >PWM Timer0 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer0-Modo-Rapido.html"
+                >PWM Timer0 Modo Rapido</a
+              >
+              <a class="before" href="Timer1-Modo-Fase-Correcta.html"
+                >PWM Timer1 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer1-Modo-Rapido.html"
+                >PWM Timer1 Modo Rapido</a
+              >
+            </div>
+
+            <a class="tema3 tema" href="#"
+              >Tema 4: Conversión Digital/Analógica - Analógica/Digital</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Convertidor-ADC.html">Convertidor ADC</a>
+            </div>
+
+            <a class="tema4 tema" href="#">Tema 5: Comunicación serial </a>
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="USART.html">Comunicación Serial USART</a>
+            </div>
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction2()">Laboratorio</li>
+
+          <div class="dropdow-content device2">
+            <!---->
+            <a class="tema5 tema" href="#">Primeros pasos</a>
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Instalacion-de-Proteus-8.5.html"
+                >Instalación de proteus 8.5</a
+              >
+              <a class="before" href="como-agregar-librerias-a-proteus-8.5.html"
+                >Como agregar librerias adicionales en Proteus 8.5</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >Descripcion y manejo de las librerias</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >IDE software Arduino</a
+              >
+              <a class="before" href="IDE-AVR-Studio-7.html"
+                >IDE AVR Studio 7</a
+              >
+              <a
+                style="padding-right: 0"
+                class="before"
+                href="Programar-Arduino-AVRStudio.html"
+                >Programar el Arduino con AVR Studio 7</a
+              >
+              <a
+                class="before"
+                href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                >Introduccion al lenguaje de programacion en C</a
+              >
+              <a class="before" href="manejo-del-display-7seg.html"
+                >Manejo del display 7 Segmentos</a
+              >
+              <a class="before" href="Manejo-de-la-pantalla-LCD.html"
+                >Manejo de la pantalla LCD</a
+              >
+            </div>
+
+            <a href="practica1.html">Práctica 1</a>
+            <a href="practica2.html">Práctica 2</a>
+            <a href="practica3.html">Práctica 3</a>
+            <a href="practica4.html">Práctica 4</a>
+            <a href="practica5.html">Práctica 5</a>
+
+            <!---->
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction3()">Descargas</li>
+          <div class="dropdow-content device3">
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- sidenav content -->
+    <div class="sidenav2">
+      <label
+        ><a href="#" style="color: black"
+          >Microcontroladores AVR de Atmel</a
+        ></label
+      >
+      <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#microcontrolador">El Microcontrolador</a></li>
+
+        <li class="afterICon">
+          <a class="icon icon-solid icon-arrow-down ai0"
+            >Bloques que lo componen</a
+          >
+        </li>
+        <ul>
+          <li><a href="#El-CPU">El CPU (Unidad Central de Proceso)</a></li>
+          <li><a href="#ALU">ALU</a></li>
+          <li><a href="#Memorias">Memorias</a></li>
+          <li><a href="#InterfazE/S">Interfaz de Entrada y Salida</a></li>
+        </ul>
+        <li>
+          <a href="#Arquitectura">Arquitectura de los Microcontroladores</a>
+        </li>
+        <li><a href="#Fabricantes">Fabricantes de Microcontroladores</a></li>
+
+        <li class="afterICon">
+          <a class="icon icon-solid icon-arrow-down ai1"
+            >Microcontroladores de Atmel</a
+          >
+        </li>
+        <ul>
+          <li><a href="#historia">Un poco de historia</a></li>
+          <li><a href="#Familia">Familia Básica de los AVR</a></li>
+        </ul>
+        <li>
+          <a href="#Caracteristicas"
+            >Características Generales de la Familia de los Microcontroladores
+            AVR</a
+          >
+        </li>
+
+        <li class="afterICon">
+          <a class="icon icon-solid icon-arrow-down ai2"
+            >Arquitectura del ATmega 328P</a
+          >
+        </li>
+        <ul>
+          <li>
+            <a href="#ATmega-328P"
+              >Diagrama de bloques del microcontrolador AVR de Atmel de 8
+              bits</a
+            >
+          </li>
+          <li>
+            <a href="#Diagrama-de-bloques-de-la-arquitectura-AVR"
+              >Diagrama de bloques de la arquitectura AVR</a
+            >
+          </li>
+          <li>
+            <a href="#RDPG">Registros X, Y, Z y de propósito general</a>
+          </li>
+          <li><a href="#Memoria-de-Datos">Memoria de Datos</a></li>
+          <li><a href="#RPG">Registros de propósito general</a></li>
+          <li><a href="#RegistrosI/O">Registros I/O</a></li>
+          <li><a href="#RegistrosI/O-E">Registros I/O Extendidos</a></li>
+          <li><a href="#EEPROM">Memoria EEPROM de datos</a></li>
+          <li><a href="#Memoria-de-programa">Memoria de programa</a></li>
+          <li>
+            <a href="#Configuracion-de-pines"
+              >Configuración de pines del ATMega 328P</a
+            >
+          </li>
+          <li><a href="#E/S">Puertos de Entrada/Salida</a></li>
+          <li><a href="#Ejemplo">Ejemplo</a></li>
+          
+        </ul>
+        <li style="padding-bottom: 40%"><a href="#resumen">Resumen de registros relacionados con el manejo de puertos</a></li>
+      </ul>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <!--title content -->
+      <div class="h1-content  container" style="align-items: center;">
+        <!-- Columna 1 -->
+         <div class="col your-item2 desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 85%;"
+               />
+               
+         </div>
+          <!-- Col 1 in Devices -->
+         <div class="col deviceCol">
+           <div class="container" style="flex-direction: row !important;">
+             <div class="col your-item2">
+               <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 70%;"
+               />
+             </div>
+             <div class="col">
+               <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 50%;"
+               />
+             </div>
+           </div>
+         </div>
+         <!-- Col 2 in Devices -->
+         <div class="col deviceCol">
+           <div style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+         </div>
+ 
+ 
+         <!-- Columna 2 -->
+         <div class="col your-item2">
+           <div class="desktopCol" style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+           <div class="page-title">
+             <h1 class="titleH7" style="font-size: 2em; margin-top: 15px; padding-top: 0;">
+              Microcontroladores AVR de Atmel
+           </h1>
+           </div>
+           
+         </div>
+ 
+         <!-- Columna 3 -->
+         <div class="col desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 65%;"
+               />
+         </div>
+         
+         
+       </div>
+      <!--main content -->
+      <div class="main-content">
+        <!------------------------------------------------------------->
+        <h3 class="jump" id="introduccion">Introducción</h3>
+        <p>
+          En este tema podremos conocer un poco más acerca del impresionante
+          mundo de los Microcontroladores. En este caso, nos dedicaremos a dar
+          un vistazo de los Microcontroladores ATMEL AVR (ahora de la
+          microchip), específicamente, veremos del microcontrolador AVR 328P,
+          caracteristicas generales, y arquitectura básica
+        </p>
+        <!------------------------------------------------------------->
+        <h3 class="jump" id="microcontrolador">El Microcontrolador</h3>
+        <p>
+          Un microcontrolador (µC,) es un circuito secuencial programable, capaz
+          de ejecutar las órdenes almacenadas en su memoria. Está compuesto por
+          bloques funcionales, los cuales cumplen una tarea específica.
+        </p>
+        <p>
+          El microcontrolador incluye en un solo chip el procesador (llamado
+          CPU), memoria (de datos y de programa), buses de comunicación,
+          interfaz de entrada/salida (E/S) y otros elementos que dependen del
+          fabricante y familia del mismo, por ejemplo, temporizadores,
+          osciladores internos, conversores analógico-digitales, comparadores,
+          entre otros.
+        </p>
+        <p>
+          Algunos microrontroladores son de arquitectura abierta, es decir, se
+          pueden llevar los buses al exterior. En la figura 1, se muestra el
+          diagrama de bloques de un microcontrolador básico. Lo que está dentro
+          del recuadro azul punteado es lo que el microcontrolador posee
+          internamente, éstos son los bloques de memoria de programa, datos,
+          buses y modulo o interfaz de entradas - salidas.
+        </p>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\AVR\uC.png"
+          alt="Microcontrolador"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 1.</b> Diagrama de bloques de un microcontrolador
+            básico</i
+          ><br />
+        </p>
+        <p>
+          Como podemos ver en la figura 1, algunos microcontroladores tienen la
+          capacidad de llevar los buses al exterior, pudiendo con esto ampliar
+          las capacidades de las memorias y periféricos. Esto significa que
+          poseen arquitectura abierta.
+        </p>
+
+        <!------------------------------------------------------------->
+        <h5 class="jump" id="Bloques">
+          Bloques que Componen al Microcontrolador Básico
+        </h5>
+        <p>
+          A continuación veamos cada bloque que comprende a un microcontrolador
+          básico:
+        </p>
+        <ul>
+          <li class="jump" id="El-CPU">
+            <b>El CPU (Unidad Central de Proceso)</b>: Se encarga de direccionar
+            la memoria de instrucciones, recibir el código de la instrucción, su
+            decodificación y la ejecución de la operación que implica la
+            instrucción, así como la búsqueda de los operandos y el
+            almacenamiento del resultado. incluye al menos tres elementos, ALU,
+            unidad de control y registros (veamos la figura 2)
+          </li>
+          <img
+            class="resp65"
+            style="width: 30%"
+            src="..\Imagenes\AVR\cpu.png"
+            alt="El CPU"
+          />
+          <p style="text-align: center; padding: 10px 0; font-size: 13px">
+            <i><b>Figura 2.</b> El CPU</i><br />
+          </p>
+
+          <ul>
+            <li class="jump" id="ALU">
+              <b>ALU</b>: También conocida como Unidad Aritmetica Lógica. Es un
+              circuito combinacional que define las operaciones o instrucciones
+              que el sistema será capaz de ejecutar. De ella depende la cantidad
+              de instrucciones de una arquitectura. Estas operaciones están
+              divididas en tres tipos:
+            </li>
+            <ul class="subList">
+              <li>
+                <b>Aritméticas</b>: como suma, resta, multiplicación, división
+                entre otras.
+              </li>
+              <li>
+                <b>Lógicas</b>: Como las operaciones de suma lógica (OR),
+                multiplicación lógica (AND), suma exclusiva (XOR), negadora
+                (NOT). Una operación lógica sólo puede tener como entradas y
+                como salidas una respuesta lógica (0 o 1).
+              </li>
+              <li>
+                <b>Otras</b>: todas las demás operaciones como la manipulación,
+                rotación, transferencia de bits.
+              </li>
+            </ul>
+            <li>
+              <b>Unidad de control (UDC)</b>: es un circuito secuencial que
+              tiene como función buscar las instrucciones en la memoria
+              principal, decodificarlas (interpretación) y ejecutarlas,
+              empleando para ello la unidad de proceso. La unidad de control
+              posee una microprogramación que se encuentra almacenada en una
+              micromemoria, a la cual se accede de manera secuencial para
+              posteriormente ir ejecutando cada una de las microinstrucciones.
+            </li>
+            <li>
+              <b>Registros</b>: Almacenan momentáneamente la información, como
+              por ejemplo, la instrucción que se va a ejecutar, la dirección de
+              la próxima instrucción a ejecutarse, etc.
+            </li>
+          </ul>
+          <li class="jump" id="Memorias">
+            <p>
+              <b>Memorias</b>: En los microcontroladores la memoria no es de
+              gran capacidad, si la comparamos con la de los sistemas a
+              microprocesadores (Gigabytes). La memoria para almacenar el
+              programa debe ser no volátil, tipo ROM. La memoria para almacenar
+              las variables y datos, debe ser tipo RAM, volátil. Típicamente la
+              memoria de programas no excederá de 16 K-localidades de memoria no
+              volátil (flash o eprom) para almacenar los programas.
+            </p>
+            <p>
+              La memoria RAM está destinada al almacenamiento de información
+              temporal que será utilizada por el procesador para realizar
+              cálculos u otro tipo de operaciones lógicas.
+            </p>
+            <p>
+              En el espacio de direcciones de memoria RAM se ubican además los
+              registros de trabajo del procesador y los de configuración y
+              trabajo de los distintos periféricos del microcontrolador.
+            </p>
+            <p>
+              El tipo de memoria utilizada en las memorias RAM de los
+              microcontroladores es SRAM (RAM estática, basada en flip flops),
+              lo que evita tener que implementar sistemas de refrescamiento como
+              en el caso de las computadoras personales, que utilizan gran
+              cantidad de memoria, típicamente alguna tecnología DRAM (RAM
+              dinámica, basada en condensadores).
+            </p>
+            <p>
+              A pesar de que la memoria SRAM es más costosa que la DRAM, es el
+              tipo adecuado para los microcontroladores porque éstos poseen
+              pequeñas cantidades de memoria RAM.
+            </p>
+            <p>
+              En cuanto a la memoria no volátil que se pueden encontrar en los
+              microcontroladores del mercado las siguientes:
+            </p>
+          </li>
+          <ol>
+            <li>
+              <b>ROM con máscara</b>: Es una memoria no volátil de sólo lectura
+              cuyo contenido se graba durante la fabricación del chip. El
+              elevado costo del diseño de la máscara sólo hace aconsejable el
+              empleo de los microcontroladores con este tipo de memoria cuando
+              se van a utilizar en masa.
+            </li>
+            <li>
+              <b>OTP (One Time Programmable)</b>: memoria no volátil de sólo
+              lectura “programable una sola vez” por el usuario. La versión OTP
+              es recomendable cuando es muy corto el ciclo de diseño del
+              producto, o bien, en la construcción de prototipos y series muy
+              pequeñas.
+            </li>
+            <li>
+              <b>EPROM (Erasable Programmable Read Only Memory)</b>: Los
+              microcontroladores que disponen de memoria EPROM pueden borrarse y
+              grabarse muchas veces. Se programan eléctricamente,
+              posteriormente, si se desea borrar el contenido, disponen de una
+              ventana de cristal en su superficie por la que se somete a la
+              EPROM a rayos ultravioleta durante varios minutos.
+            </li>
+            <li>
+              <b>EEPROM (Electrical Erasable Programmable Read OnIy Memory)</b>:
+              Son memorias de sólo lectura, programables y borrables
+              eléctricamente. Tanto la programación como el borrado, se realizan
+              eléctricamente desde el propio programador (quemador). Se va
+              extendiendo en los fabricantes la tendencia de incluir una pequeña
+              zona de memoria EEPROM en los circuitos programables para guardar
+              y modificar cómodamente una serie de parámetros que adecuan el
+              dispositivo a las condiciones del entorno.
+            </li>
+            <li>
+              <b>Flash</b>: memoria no volátil, de bajo consumo, que se puede
+              escribir y borrar. Funciona como una ROM y una RAM pero consume
+              menos y es más pequeña. A diferencia de la ROM, la memoria FLASH
+              es programable en el circuito. Es más rápida y de mayor densidad
+              que la EEPROM. La alternativa FLASH está recomendada frente a la
+              EEPROM cuando se precisa gran cantidad de memoria de programa no
+              volátil. Es más veloz y tolera más ciclos de escritura/borrado.
+            </li>
+          </ol>
+
+          <li class="jump" id="InterfazE/S">
+            <b>Interfaz de Entrada y Salida</b>: Es un conjunto de módulos
+            electrónicos que permiten el control de los dispositivos
+            periféricos, adaptando las diferentes velocidades y modos de
+            funcionamiento
+            <p>Las principales razones de uso de una interfaz son:</p>
+            <ul>
+              <li>
+                Existen una gran variedad de periféricos con normas de
+                funcionamiento diferentes y resultaría imposible implementar en
+                el sistema tal diversidad de controladores
+              </li>
+              <li>
+                Las diferencias de velocidad de los dispositivos hace que no sea
+                práctico comunicarse con ellos directamente a través del bus del
+                sistema.
+              </li>
+              <li>
+                En algunos casos incluso la velocidad del dispositivo es mayor
+                que la de la memoria o el procesador.
+              </li>
+              <li>
+                Algunos periféricos utilizan datos con formatos y tamaños de
+                palabra diferentes de los del microcontrolador al que se
+                conectan.
+              </li>
+              <li>
+                Información de estado: saber si el dispositivo está preparado
+                para transferir datos o no.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!------------------------------------------------------------->
+
+        <h3 class="jump" id="Arquitectura">
+          Arquitectura de los Microcontroladores
+        </h3>
+        <p>
+          Existen dos grandes arquitecturas, según la disposición de buses.
+          Estas son la Princeton y a Harvard. La arquitectura más usada en los
+          microcontroladores es la Harvard; ésta dispone de dos memorias
+          independientes. Una contiene sólo instrucciones y otra, datos; por lo
+          tanto, poseen buses separados, lo que le permite la búsqueda
+          simultánea de éstos.
+        </p>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\AVR\harvard.png"
+          alt="El CPU"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 3.</b> Diagrama de bloques arquitectura Harvard</i><br />
+        </p>
+        <!------------------------------------------------------------->
+
+        <h3 class="jump" id="Fabricantes">Fabricantes de Microcontroladores</h3>
+        <p>
+          Existen varias empresas fabricantes, entre ellas mencionaremos:
+          Microchip, Atmel (ahora Microchip), Intel, Texas Instruments,
+          Freescale (Antes Motorola), National Semiconductor, Zilog, entre
+          otras.
+        </p>
+        <p>
+          En esta guía de estudio, conoceremos la arquitectura de los
+          microcontroladores AVR de Atmel (ahora Microchip).
+        </p>
+
+        <!------------------------------------------------------------->
+        <h3 class="jump" id="Avr">Microcontroladores de Atmel</h3>
+        <h5 class="jump" id="historia">Un poco de historia</h5>
+        <p>
+          Atmel Corp. era una compañía de semiconductores fundada en 1984, que
+          fue adquirida por Microchip Technology Inc. en 2016. Su línea de
+          productos incluye microcontroladores (incluyendo derivados del 8051,
+          el AT91SAM basados en ARM, y sus arquitecturas propias AVR y AVR32),
+          dispositivos de radiofrecuencia, memorias EEPROM y Flash, ASICs,
+          WiMAX, y muchas otras. También tiene capacidad de ofrecer soluciones
+          del tipo system on chip (SoC).
+        </p>
+        <p>
+          Uno de los microcontroladores líderes de la industria en el universo
+          del diseño incorporado es el AVR (Advanced Virtual RISC). Este
+          microcontrolador fue desarrollado por Atmel en 1996. Posee una
+          Arquitectura Harvard modificada, de 8-bits con repertorio de
+          instrucciones tipo RISC. Su arquitectura fue concebida por dos
+          estudiantes en el Norwegian Institute of Technology, y posteriormente
+          refinada y desarrollada en Atmel Norway, la empresa subsidiaria de
+          Atmel, fundada por los dos arquitectos del chip.
+        </p>
+        <p>
+          Una de las características que hacen a los microcontroladores AVR tan
+          interesantes, es que tienen una segmentación ('pipeline' en inglés)
+          con dos etapas: Fetch- Execute (carga-ejecuta), que les permite
+          ejecutar la mayoría de las instrucciones en un ciclo de reloj, lo que
+          los hace relativamente rápidos en comparación con otros
+          microcontroladores de 8 bits.
+        </p>
+        <p>
+          En el primer ciclo de reloj, se carga la primera instrucción, ya en el
+          segundo ciclo, la ha decodificado y la está ejecutando; a la vez que
+          va cargando la segunda instrucción. En el tercer ciclo de reloj,
+          ejecuta la segunda instrucción y va cargando la tercera, y así
+          sucesivamente (como podemos observar en la figura 4).
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\Fetch-Execute.png"
+          alt="Ciclo Fetch-Execute en los microcontroladores AVR"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 4.</b> Ciclo Fetch-Execute en los microcontroladores
+            AVR</i
+          ><br />
+        </p>
+        <p>
+          Cada ciclo de reloj concluye una instrucción. En realidad una
+          instrucción simple tarda dos ciclos de reloj. El rendimiento se
+          aproxima a 1 MIPS por MHz de la frecuencia de trabajo del oscilador.
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\instrucciones-aritmeticas.png"
+          alt="Ciclo Fetch-Execute en los microcontroladores AVR"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 5.</b> Ejecución de instrucciones aritméticas y
+            lógicas.</i
+          ><br />
+        </p>
+        <p>
+          La figura 5 muestra la ejecución de instrucciones aritméticas y
+          lógicas, la duración del ciclo es suficiente para permitir la lectura
+          de registros, la operación de la ALU y la escritura en el registro
+          destino.
+        </p>
+        <!------------------------------------------------------------->
+
+        <h5 class="jump" id="Familia">Familia Básica de los AVR</h5>
+        <p>
+          La familia de microcontroladores AVR es muy numerosa, incluye más de
+          70 dispositivos que comparten el núcleo, pero difieren en recursos.
+          Algunas de las familias de los microcontroladores AVRs son:
+        </p>
+        <ul>
+          <li class="jump" id="ATxmega">
+            <b>ATxmega</b>: <br />
+            Caracterizado por ser potentes en cuanto a cómputo y procesamiento
+            se indica, poseen memorias FLASH de 16 hasta 384 KB, encapsulados
+            con bastantes disponibilidad de pines para tareas que requieren usos
+            de teclados , LCD, etc.. Estos contienen gran variedad de
+            periféricos. Por ejemplo, los XMEGA de la serie ATxmega tienen las
+            siguientes características:
+          </li>
+          <ul>
+            <li>16 – 384 kB de memoria de programa</li>
+            <li>44 – 64 – 100 pines (A4, A3, A1)</li>
+            <li>
+              Extiende características de rendimiento, tales como DMA, "Sistema
+              de eventos" y soporte de criptografía
+            </li>
+            <li>Periférico extenso con ADCs</li>
+          </ul>
+        </ul>
+        <img
+          class="resp65"
+          style="width: 30%"
+          src="..\Imagenes\AVR\ATxmega.png"
+          alt="Ejemplo del microcontrolador de la serie ATxmega"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 6.</b> Ejemplo del microcontrolador de la serie
+            ATxmega</i
+          ><br />
+          <i><b>Fuente</b>: Atmel.com</i>
+        </p>
+        <ul>
+          <li class="jump" id="ATmega">
+            <b>ATmega</b>: <br />
+            Es una de las familias más usada para la fabricación de las tarjetas
+            de Arduino, debido a su bajo costo y amplia variedad de encapsulados
+            y periféricos. Por ejemplo, los megaAVR de la serie de ATmega
+            presentan las siguientes características:
+            <ul>
+              <li>4 – 512 kB de memoria de programa</li>
+              <li>28 – 100 pines</li>
+              <li>
+                Set de instrucciones ampliado (multiplicar las instrucciones y
+                las instrucciones para el manejo de grandes memorias de
+                programa)
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <img
+          class="resp1"
+          style="width: 42%"
+          src="..\Imagenes\AVR\ATmega.png"
+          alt="Ejemplo del microcontrolador de la serie ATmega"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 7.</b> Ejemplo del microcontrolador de la serie ATmega</i
+          ><br />
+          <i><b>Fuente</b>: Atmel.com</i>
+        </p>
+        <ul>
+          <li class="jump" id="ATtiny">
+            <b>ATtiny</b>: <br />
+            Caracterizados por su muy bajo costo y sencillez, carece de
+            periféricos importantes que poseen las otras gamas, pero pensado
+            para aplicaciones y proyectos que requieren mucha simpleza y poca
+            capacidad de procesamiento. Los ATtiny1607 de esta familia presentan
+            las siguientes características:
+          </li>
+          <ul>
+            <li>2 KB to 16 KB de memoria Flash</li>
+            <li>De 8- a 24-pines</li>
+            <li>
+              Se usan en aplicaciones industriales, automotive, IoT (Internet de
+              las cosas), aplicaciones de consumo
+            </li>
+          </ul>
+        </ul>
+        <img
+          class="resp65"
+          style="width: 20%"
+          src="..\Imagenes\AVR\ATtiny.png"
+          alt="Ejemplo del microcontrolador de la serie ATtiny"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 8.</b> Ejemplo del microcontrolador de la serie ATtiny</i
+          ><br />
+          <i><b>Fuente</b>: Atmel.com</i>
+        </p>
+        <!------------------------------------------------------------->
+
+        <h3 class="jump" id="Caracteristicas">
+          Características Generales de la Familia de los Microcontroladores AVR
+          ATmega48P / 88P / 168P / 328P de Atmel
+        </h3>
+        <ul>
+          <li>
+            El Microcontrolador AVR® es de 8 bits posee alto rendimiento y baja
+            potencia
+          </li>
+          <li>Arquitectura RISC avanzada:</li>
+          <ul>
+            <li>131 instrucciones</li>
+            <li>32 x 8 registros de propósito general</li>
+            <li>Hasta 20 MIPS de rendimiento a 20 MHz</li>
+            <li>Multiplicador de 2 ciclos en chip</li>
+          </ul>
+          <li>Segmentos de memoria no volátil de alta duración:</li>
+          <ul>
+            <li>
+              4/8/16 / 32K Bytes de memoria de programa Flash autoprogramable en
+              el sistema (ATmega48P / 88P / 168P / 328P)
+            </li>
+            <li>
+              256/512/512 / 1K Bytes EEPROM (ATmega48P / 88P / 168P / 328P)
+            </li>
+            <li>
+              512 / 1K / 1K / 2K Bytes SRAM interna (ATmega48P / 88P / 168P /
+              328P)
+            </li>
+            <li>
+              Ciclos de escritura / borrado: 10,000 Flash / 100,000 EEPROM
+            </li>
+            <li>Retención de datos: 20 años a 85 ° C / 100 años a 25 ° C</li>
+            <li>
+              Sección de código de arranque opcional con bits de bloqueo
+              independientes.
+            </li>
+            <li>Programación en el sistema por programa de arranque en chip</li>
+            <li>Bloqueo de programación para la seguridad del software</li>
+          </ul>
+          <li>Características periféricas:</li>
+          <ul>
+            <li>
+              Dos temporizadores / contadores de 8 bits con preescalador
+              separado y modo de comparación
+            </li>
+            <li>
+              Un temporizador / contador de 16 bits con preescalador
+              independiente, modo de comparación y modo captura
+            </li>
+            <li>Contador en tiempo real con oscilador separado</li>
+            <li>Seis canales PWM</li>
+            <li>
+              ADC de 8 canales y 10 bits en encapsulado tipo TQFP y QFN / MLF
+              para Medida de temperatura
+            </li>
+            <li>
+              ADC de 6 canales y 10 bits en encapsulado tipo PDIP para Medida de
+              temperatura
+            </li>
+            <li>USART serie Programable</li>
+            <li>Interfaz serie maestro / esclavo SPI</li>
+            <li>
+              Interfaz en serie de 2 hilos orientada a bytes (compatible Philips
+              I2C)
+            </li>
+            <li>
+              Temporizador de vigilancia programable con oscilador separado en
+              chip (whatchdog o perro guardian)
+            </li>
+            <li>Comparador analógico en chip</li>
+            <li>Interrupción por cambio en pin</li>
+          </ul>
+          <li>Características especiales del microcontrolador:</li>
+          <ul>
+            <li>
+              Reset de encendido y detección de baja tensión de alimentación
+              (brownout) programable
+            </li>
+            <li>Oscilador interno calibrado</li>
+            <li>Fuentes de interrupción externas e internas</li>
+            <li>
+              Seis modos de suspensión (sleep): inactivo, reducción de ruido
+              ADC, ahorro de energía, apagado, espera, y espera extendida
+            </li>
+          </ul>
+          <li>Pines de entrada - salida (E/S) y encapsulado:</li>
+          <ul>
+            <li>23 líneas de E / S programables</li>
+            <li>
+              PDIP de 28 pines, TQFP de 32 cables, QFN / MLF de 28 pads y QFN /
+              MLF de 32 pads
+            </li>
+          </ul>
+          <li>Rango de temperatura:</li>
+          <ul>
+            <li>-40 ° C a 85 ° C</li>
+          </ul>
+          <li>Relación de votaje-velocidad:</li>
+          <ul>
+            <li>
+              ATmega48P / 88P / 168PV: 0 - 4 MHz @ 1.8 - 5.5V, 0 - 10 MHz @ 2.7
+              - 5.5V
+            </li>
+            <li>
+              ATmega48P / 88P / 168P: 0-10 MHz @ 2.7 - 5.5V, 0-20 MHz @ 4.5 -
+              5.5V
+            </li>
+            <li>
+              ATmega328P: 0 - 4 MHz @ 1.8 - 5.5V, 0 - 10 MHz @ 2.7 - 5.5V, 0 -
+              20 MHz @ 4.5 - 5.5V
+            </li>
+          </ul>
+          <li>
+            Bajo consumo de energía a 1 MHz, 1.8V, 25 ° C para ATmega48P / 88P /
+            168P:
+          </li>
+          <ul>
+            <li>Modo activo: 0.3 mA</li>
+            <li>Modo de apagado: 0.1 µA</li>
+            <li>Modo de ahorro de energía: 0.8 µA (incluyendo 32 kHz RTC)</li>
+          </ul>
+        </ul>
+        <!------------------------------------------------------------->
+        <h3 class="jump" id="ATmega-328P">
+          Arquitectura del microcontrolador ATmega 328P de Atmel
+        </h3>
+        <p>
+          A continuación veamos la arquitectura del microcontrolador ATmega 328P
+          de Atmel
+        </p>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\ATmega328P\diagrama-de-bloques.png"
+          alt="diagrama de bloques del microcontrolador"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 9.</b> Diagrama de bloques del microcontrolador AVR de
+            Atmel de 8 bits</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+
+        <h3 id="Diagrama-de-bloques-de-la-arquitectura-AVR" class="jump">
+          Diagrama de bloques de la arquitectura AVR
+        </h3>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\ATmega328P\Diagrama-de-bloques-de-la-arquitectura-AVR.png"
+          alt="diagrama de bloques arquitectura del AVR"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 10.</b> Diagrama de bloques del microcontrolador AVR de
+            Atmel de 8 bits</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <p>
+          Continuemos con la arquitectura AVR de 8 bits de la figura 10. El
+          registro <b>Program Counter (PC)</b> es un registro que contiene la
+          dirección de la próxima instrucción a ejecutar. Este apunta a la
+          memoria de programa (tipo Flash); la instrucción “cae” hacia el
+          registro de instrucción, para luego pasar al decodificador de
+          instrucción. Al decodificarse la instrucción, la unidad de control
+          direcciona los registros de propósito general que van a enviar su
+          contenido (datos) a las entradas de
+          <b>la unidad aritmético-lógica (ALU)</b>, e indica a la ALU la
+          operación que ésta realizará. Una vez que se ejecuta la instrucción,
+          el resultado se almacena en el destino, según la instrucción que se
+          haya ejecutado
+        </p>
+        <p>
+          Por ejemplo, si la instrucción es ADD Rd,Rr, suma el contenido de los
+          dos registros, y el resultado lo almacena en el registro Rd. (Rd <--
+          Rd + Rr).
+        </p>
+        <p>
+          <b>ALU</b>: También conocida como Unidad Aritmetica y Lógica. Está
+          unidad está compuesta por los circuitos electrónicos digitales del
+          tipo combinacionales (compuertas, sumadores, multiplicadores), cuya
+          principal función es el realizar operaciones. Estas operaciones están
+          divididas en tres tipos:
+        </p>
+        <ul>
+          <li>
+            Lógicas. Las operaciones básicas de las compuertas lógicas, como la
+            suma lógica (OR), multiplicación lógica (AND), diferencia lógica
+            (XOR) y negación (NOT). Una operación lógica sólo puede tener como
+            entradas y como salidas una respuesta lógica (0 o 1). Esto
+            dependiendo de los niveles de voltajes de una señal digital.
+          </li>
+          <li>
+            Aritméticas. Las operaciones aritméticas son la suma, resta,
+            multiplicación y división. Dependiendo del procesador (8, 16, 32 o
+            64 bits) será la rapidez con la que se pueden hacer dichas
+            operaciones.
+          </li>
+          <li>
+            otras. En estas operaciones caen todas las demás operaciones como
+            carga, desplazamiento, transferencia de bits, entre otras.
+          </li>
+        </ul>
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="RDPG">Registros X, Y, Z y de propósito general</h3>
+        <p>
+          El Archivo de Registros tiene 32 registros de propósito general de 8
+          bits, habilitados para un acceso rápido. A cada registro se le asigna
+          una dirección de memoria de datos, asignándolos directamente en las
+          primeras 32 ubicaciones del espacio de datos del usuario.
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\ATmega328P\Registros-de-trabajo-de-proposito-general.png"
+          alt="registro de proposito general"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 11.</b>
+            <i>
+              Diagrama de bloques del microcontrolador AVR de Atmel de 8 bits</i
+            ><br
+          /></i>
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <p>
+          Aunque no se implementa físicamente como ubicaciones en la memoria
+          SRAM, esta organización de memoria proporciona una gran flexibilidad
+          en el acceso a registros, ya que seis de sus registros pueden ser
+          usados como apuntadores de 16 bits para direccionamiento indirecto en
+          el espacio de datos. Estos se denominan X, Y y Z.
+        </p>
+        <p>
+          En los diferentes modos de direccionamiento, estos seis registros de
+          dirección tienen funciones como desplazamiento fijo, incremento
+          automático y decremento automático.
+        </p>
+        <p>
+          El registro Z también puede usarse como apuntador a la memoria de
+          programa.
+        </p>
+        <p>
+          La siguiente figura muestra la organización de éstos registros y la
+          dirección asignada a cada uno de ellos.
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\Registrosxyz.png"
+          alt="registro x y z"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 12.</b> <i> Registros X, Y y Z</i><br /></i>
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="Memoria-de-Datos">Memoria de Datos</h3>
+        <p>
+          El microcontrolador 328p de Atmel posee 2 memorias para datos, una
+          SRAM y una EEprom.
+        </p>
+        <ul>
+          <li>
+            <b>Memoria SRAM</b>: SRAM (RAM estática) es una memoria de acceso
+            aleatorio ( RAM ) que retiene bits de datos en su memoria mientras
+            se suministra energía. A diferencia de la RAM dinámica (DRAM), que
+            almacena bits en celdas que constan de un condensador y un
+            transistor , la SRAM no tiene que actualizarse periódicamente. La
+            RAM estática proporciona un acceso más rápido a los datos y es más
+            cara que la DRAM. SRAM se utiliza para la memoria caché de una
+            computadora y como parte del convertidor de digital a analógico de
+            memoria de acceso aleatorio en una tarjeta de video
+          </li>
+          <p>Es un espacio de 2304 localidades de 8 bits que incluye:</p>
+          <ul>
+            <li>32 Registros de acceso rápido (Register File).</li>
+            <li>64 Registros de entrada / salida (I / O).</li>
+            <li>160 Registros de entrada / salida (I/O) extendida</li>
+            <li>2048 Localidades de propósito general.</li>
+          </ul>
+          <p>
+            Los 32 registros de acceso rápido y los registros I/O tienen
+            direcciones para ser tratados como SRAM de propósito general, como
+            podemos observar en la figura 13.
+          </p>
+        </ul>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\AVR\SRAM.png"
+          alt="Registros y memoria SRAM"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 13.</b> <i> Registros y memoria SRAM</i><br /></i>
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="RPG">Registros de propósito general</h3>
+        <p>
+          El repertorio de instrucciones AVR está optimizado para el archivo de
+          Registros (register file o registros de acceso rápido).
+        </p>
+        <p>
+          Las instrucciones que trabajan con dos operandos pueden utilizar
+          cualquier registro.
+        </p>
+        <p>
+          Si se va a operar un registro con una constante, sólo se pueden
+          emplear los registros de R16 a R31
+        </p>
+        <p>
+          Cada registro tienen una dirección para ser tratado como RAM genérica
+          (0x00 - 0x1F), utilizando instrucciones de Carga (<span
+            style="color: blue"
+            >LD</span
+          >) y almacenamiento (<span style="color: blue">ST</span>).
+        </p>
+        <p>
+          Como ya vimos, De R26 a R31 (X,Y y Z), pueden usarse como apuntadores
+          para direccionamiento indirecto
+        </p>
+
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="RegistrosI/O">Los Registros I/O</h3>
+        <ul>
+          <li>
+            Los Registros I/O se emplean para la configuración y el control de
+            recursos internos, así como para conocer su estado.
+          </li>
+          <li>
+            El ATMega328 cuenta con un espacio para alojar hasta 64 Registros
+            I/O de 8 bits (no todas las direcciones están ocupadas). En este
+            espacio están los registros para el manejo de los Puertos de
+            Entrada/Salida.
+          </li>
+          <li>
+            El acceso a Registros I/O se realiza con las instrucciones IN y OUT,
+            interactuando con el Register File. Con estas instrucciones deben
+            usarse las direcciones 0x00 - 0x3F
+          </li>
+          <li>
+            Los Registros I/O pueden ser tratados como memoria, con
+            instrucciones de carga (<span style="color: blue">LD</span>) y
+            almacenamiento (<span style="color: blue">ST</span>) (direcciones
+            0x20 - 0x5F), aunque es menos eficiente.
+          </li>
+          <li>
+            Los Registros I/O en el rango 0x00 - 0x1F son accesibles por bit.
+            Para modificarse, con instrucciones SBI y CBI o para evaluarse, a
+            través de las instrucciones SBIS y SBIC.
+          </li>
+        </ul>
+
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="RegistrosI/O-E">Los Registros I/O Extendidos</h3>
+        <ul>
+          <li>
+            El espacio para los Registros I/O Extendidos es de 160 localidades;
+            aunque la mayoría están libres
+          </li>
+          <li>
+            Tienen la misma función que los Registros I/O, es decir, se emplean
+            para la configuración y el control de recursos internos, así como
+            para conocer su estado.
+          </li>
+          <li>
+            Los Registros I/O Extendidos son Registros I/O mapeados en la
+            memoria SRAM. Únicamente se pueden acceder con instrucciones de
+            carga (<span style="color: blue">LD</span>) y almacenamiento (<span
+              style="color: blue"
+              >ST</span
+            >) (direcciones 0x60 - 0xFF)
+          </li>
+        </ul>
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="EEPROM">Memoria EEPROM de datos</h3>
+        <p>
+          EEPROM (memoria de solo lectura programable y borrable eléctricamente)
+          es una memoria de solo lectura (ROM) modificable por el usuario que se
+          puede borrar y reprogramar (escribir en) repetidamente mediante la
+          aplicación de un voltaje eléctrico superior al normal. a diferencia
+          del chip EPROM, debe borrarse y reprogramarse en su totalidad, no de
+          forma selectiva. también tiene una vida limitada, es decir, el número
+          de veces que se puede reprogramar está limitado a decenas o cientos de
+          miles de veces. En una EEPROM que se reprograma con frecuencia
+          mientras la computadora está en uso, la vida útil de la EEPROM puede
+          ser una consideración de diseño importante.
+        </p>
+        <p>
+          El ATmega328P contiene 1K bytes de memoria EEPROM de datos. Esta está
+          organizada como un espacio de datos separado, en el que se pueden leer
+          y escribir bytes individuales. Las memorias EEPROM tienen una
+          durabilidad de al menos 100,000 ciclos de escritura / borrado.
+        </p>
+        <p>
+          La memoria EEPROM está en un espacio independiente y se requiere de 3
+          Registros I/O para su acceso:
+        </p>
+        <ul>
+          <li>EEAR - Para el manejo de la dirección.</li>
+          <li>EEDR - Para el dato a lectura o escritura</li>
+          <li>EECR - Para el control</li>
+        </ul>
+
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="Memoria-de-programa">Memoria de programa</h3>
+        <p>
+          Es una memoria tipo Flash cuyo tamaño varía entre procesadores, el
+          ATMega328p es de 32 Kbytes (16 K x 16 bits). Soporta hasta 10,000
+          ciclos de escritura/borrado. Se puede dividir en una sección para
+          aplicación y una sección de arranque o booteo. Los vectores de
+          interrupción son parte de la memoria de programa e inician en la
+          dirección 0.
+        </p>
+        <img
+          class="resp50"
+          style="width: 25%"
+          src="..\Imagenes\AVR\Memoria-de-programa.png"
+          alt="Memoria de programa"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 14.</b> <i> Memoria de programa ATmega328p</i><br /></i>
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="Configuracion-de-pines">
+          Configuración de pines del ATMega 328P
+        </h3>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\ATmega328P\ATmega328P.png"
+          alt="pines de conexion"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 15.</b> Configuración de pines del microcontrolador
+            ATMega 328P para el encapsulado tipo PDIP</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <ul>
+          <li><b>VCC</b>: Voltaje de suministro digital.</li>
+          <li><b>GND</b>: Tierra</li>
+          <li>
+            <b>Puerto B (PB7:0) XTAL1/XTAL2/TOSC1/TOSC2</b>: El puerto B es un
+            puerto de E/S bidireccional de 8 bits con resistencias pull-up
+            internas (seleccionadas para cada bit). Los búferes de salida del
+            puerto B tienen características de unidad simétricas con capacidad
+            de fuente y de sumidero alta. Los pines del Puerto B tienen tres
+            estados cuando se activa una condición de reinicio, incluso si el
+            reloj no está funcionando
+          </li>
+          <li>
+            <b>Puerto C (PC5:0)</b>: El puerto C es un puerto de E/S
+            bidireccional de 7 bits con resistencias pull-up internas
+            (seleccionadas para cada bit). Los búferes de salida PC5..0 tienen
+            características de excitación simétricas con alta capacidad tanto de
+            sumidero como de fuente. Los pines del puerto C tienen tres estados
+            cuando se produce una condición de reinicio incluso si el reloj no
+            está funcionando
+          </li>
+          <li>
+            <b>PC6/RESET</b>: Si el fusible RSTDISBL está programado, PC6 se
+            utiliza como pin de entrada. Si el fusible RSTDISBL no está
+            programado, se utiliza PC6 como entrada de reinicio. Un nivel bajo
+            en este pin durante más tiempo que la longitud mínima de pulso
+            generará un reinicio, incluso si el reloj no está funcionando
+          </li>
+          <li>
+            <b>Puerto D (PD7:0)</b>: El puerto D es un puerto de E/S
+            bidireccional de 8 bits con resistencias pull-up internas
+            (seleccionadas para cada bit). Los búferes de salida del puerto D
+            tienen Características de accionamiento simétricas con alta
+            capacidad de sumidero y fuente. Los pines del puerto D tienen tres
+            estados cuando se activa una condición de reinicio, incluso si el
+            reloj no está funcionando.
+          </li>
+          <li>
+            <b>AVCC</b>: AVCC es el pin de voltaje de suministro para el
+            convertidor A/D. Debe estar conectado externamente a VCC, incluso si
+            no se usa el ADC. Si se utiliza el ADC, debe conectarse a VCC a
+            través de un filtro de paso bajo. Tenga en cuenta que PC6..4 utiliza
+            el voltaje de suministro digital, VCC.
+          </li>
+          <li>
+            <b>AREF</b>: AREF es el pin de referencia analógico para el
+            convertidor A/D
+          </li>
+        </ul>
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="E/S">Puertos de Entrada/Salida</h3>
+        <p>
+          El microcontrolador ATmega328p posee tres (03) puertos bidireccionales
+          configurables pin a pin. Esto significa que la dirección de un pin de
+          puerto se puede cambiar sin cambiar involuntariamente la dirección de
+          cualquier otro pin, usando las instrucciones SBI y CB). Lo mismo se
+          aplica al cambiar el valor de salida (si está configurado como salida)
+          o para habilitación / deshabilitación de resistencias pull-up (si está
+          configurado como entrada).
+        </p>
+        <p>
+          El controlador (driver) del pin es lo suficientemente fuerte como para
+          manejar pantallas LED directamente. Todos los pines de puerto tienen
+          individualmente resistencias pull-up configurables con una resistencia
+          de voltaje de alimentación invariante. Todos los pines de E / S tienen
+          diodos de protección para VCC y tierra.
+        </p>
+        <p>Se requiere de tres registros I/O para el manejo de cada puerto:</p>
+        <ul>
+          <li>
+            <b>DDRx</b>: Registro que define la dirección del puerto con el
+            apoyo de un buffer de 3 estados. Las direcciones se pueden
+            configurar de manera independiente, para cada terminal.
+            <ul>
+              <li>1 - Salida</li>
+              <li>0 - Entrada</li>
+            </ul>
+          </li>
+          <li>
+            <b>PORTx</b>: Registro conectado al terminal del puerto a través de
+            un buffer de 3 estados, en PORTx se escribe cuando el puerto está
+            configurado como salida. Si el puerto es entrada sirve para
+            habilitar un resistor de Pull-Up.
+          </li>
+          <ul>
+            <li>
+              Para activar la resistencia de Pull_Up en un pin de un puerto, se
+              escribe un uno lógico (si el pin se ha configurado como entrada).
+            </li>
+            <li>
+              Para desactivar la resistencia pull-up de un pin de un PORTxn,
+              debe escribirse un cero lógico o el pin debe configurarse como
+              salida.
+            </li>
+            <li>
+              el bit PUD, ubicado en el registro MCUCR se puede configurar para
+              deshabilitar todas las resistencias de pull-up en todos los
+              puertos.
+            </li>
+            <li>
+              Si en un pin de PORTxn se escribe un uno lógico, cuando el pin
+              está configurado como salida, el pin del puerto se activa con un
+              alto (uno).
+            </li>
+            <li>
+              Si en un pin de PORTxn se escribe un cero lógico, cuando el pin
+              está configurado como salida, el pin del puerto se desactiva con
+              un bajo (cero)
+            </li>
+          </ul>
+          <li>
+            <b>PINx</b>: Registro para hacer lecturas directas en las terminales
+            de los puertos.
+          </li>
+        </ul>
+
+        <p>
+          Adicionalmente se cuenta con un bit de un registro para la
+          configuración de las resistencias de Pull_Up. Este es:
+        </p>
+        <ul>
+          <li>
+            <b>MCUCR</b>: Es u registro de control. Cuando el bit PUD (Pull-up
+            Disable) se escribe en uno, las pull-ups en los puertos de E / S se
+            deshabilitan incluso si DDxn y los registros PORTxn están
+            configurados para habilitar los pull-ups ({DDxn, PORTxn} = 0b01)
+          </li>
+        </ul>
+        <p>
+          Los registros <b>DDRx</b> y <b>PORTx</b> se pueden leer y escribir,
+          los registros PINx sólo se pueden leer
+        </p>
+        <p>
+          La figura 16 muestra los registros asociados a los puertos y los
+          nombres de cada bit que los conforman.
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\puertos.png"
+          alt="Registros asociados al manejo de puertos"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 16.</b> Registros asociados al manejo de puertos</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <p>
+          En la figura 17, podemos observar cómo se distribuye internamente la
+          circuitería necesaria para la configuración y manejo de datos
+          digitales de entrada/salida en un pin de cualquier de los puertos, en
+          la arquitectura del ATMega328p. Observe que no son más que latches,
+          flip flops, compuertas y buffers controlados los que permiten la
+          comunicación.
+        </p>
+        <img
+          class="resp1"
+          style="width: 50%"
+          src="..\Imagenes\AVR\EntradaSalida-Digital.png"
+          alt="Interfaz Entrada/Salida Digital"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 17.</b> Interfaz Entrada/Salida Digital</i><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <p>
+          Ahora, analizando el diagrama de la figura 17, si por ejemplo queremos
+          configurar PORTB (puerto B) como entrada, sin usar las resistencias de
+          Pull_Up, debemos almacenar un cero (0) en cada bit del Registro de
+          dirección DDRB. En la figura 18 observamos un resumen de las
+          configuraciones básica para manejo de puertos
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\Configuracion-de-puertos.png"
+          alt="Configuración de  puertos"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i><b>Figura 18.</b> Configuración de puertos</i><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <!-- ------------------------------------------------------- -->
+        <h3 class="jump" id="Ejemplo">Ejemplo:</h3>
+        <p>Con siguiente ejemplo se desea:</p>
+        <ul>
+          <li>Asignar a los pines 0 y 1 del puerto B (PORTB) un uno lógico,</li>
+          <li>Asignar a los pines 2 y 3 un cero, y</li>
+          <li>
+            Definir los pines del 4 al 7 del puerto B como entrada con pull-up
+            habilitada en los pines 6 y 7.
+          </li>
+        </ul>
+        <p>
+          Para configurar los pines 0,1,2 y 3 del PORTB como salida, se debe
+          asignar un uno en los pines respectivos del registro de dirección de
+          PORTB, DDRB.
+        </p>
+        <p>
+          Ahora, para mostrar un uno en los pines 0 y 1, simplemente se asigna
+          un uno a estos pines de PORTB. Así mismo, para mostrar un cero en los
+          pines 2 y 3, simplemente se asigna un cero a éstos pines de PORTB (ver
+          tabla 2)
+        </p>
+        <p>
+          Vamos con las entradas (pines del 4 al 7 de PORTB). Para esto, se
+          almacena un cero en los bits correspondientes de DDRB. Y para activar
+          la resistencia de pull up en el pin 6 y 7, simplemente se le asigna un
+          uno a los bits respectivos del registro PORTB. En la siguiente figura
+          se muestra el valor a asignar en cada registro.
+        </p>
+        <img
+          class="resp1"
+          style="width: 70%"
+          src="..\Imagenes\AVR\tabla2.png"
+          alt="Tabla 2"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i>Fuente: Propia</i>
+        </p>
+        <p>
+          En las siguientes figuras se muestra el segmento de código necesario
+          en Assembler y en C, para resolver el ejemplo anterior. Aunque todavía
+          no conocemos las instrucciones, es una oportunidad de ir acercándonos
+          a la programación.
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\codigoASM.png"
+          alt="código necesario en Assembler, para resolver el ejemplo anterior"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 19.</b> código necesario en Assembler, para resolver el
+            ejemplo anterior</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <img
+          class="resp1"
+          style="width: 60%"
+          src="..\Imagenes\AVR\codigoC.png"
+          alt="código necesario en C, para resolver el ejemplo anterior"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i
+            ><b>Figura 20.</b> código necesario en C, para resolver el ejemplo
+            anterior</i
+          ><br />
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <p>
+          En cuanto a la los pines que no se utilizan, se recomienda asegurarse
+          de que estos tengan un nivel definido. Incluso aunque la mayoría de
+          las entradas digitales estén deshabilitadas (como en el modo SLEP), es
+          aconsejable evitar las entradas flotantes para reducir el consumo de
+          corriente en todos los demás modos donde el digital las entradas si
+          estén habilitadas. El método más simple para garantizar un nivel
+          definido de un pin no utilizado es habilitar el pull-up interno.
+        </p>
+        <p>
+          En este caso, el pull-up se desactivará durante el reinicio. Si el
+          bajo consumo de energía durante el reinicio es importante, se
+          recomienda usar un pull-up o pull-down externo.
+        </p>
+        <div class="note">
+          <p style="padding: 5px">
+            No se recomienda conectar directamente a VCC o GND los pines no
+            utilizados ya que esto puede causar corrientes excesivas si el pin
+            se configurado accidentalmente como una salida
+          </p>
+        </div>
+        <!-- ------------------------------------------------------- -->
+        <h3 style="margin-top: 3%;" class="jump" id="resumen">Resumen de registros relacionados con el manejo de puertos</h3>
+        <img
+          class="resp1"
+          style="width: 80%"
+          src="..\Imagenes\AVR\resumen.png"
+          alt="código necesario en C, para resolver el ejemplo anterior"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          
+          <i>Fuente: Microcontrollers ATmega328P Datasheet</i>
+        </p>
+        <!-- ------------------------------------------------------- -->
+        
+
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
+            margin-top: 20px;
+          "
+        >
+          <div
+            class="card"
+            style="
+              cursor: pointer;
+              transition: 0.3s;
+              padding: 0.5rem 1rem;
+              background-color: rgba(0, 0, 0, 0.03);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            "
+          >
+            <h2 style="margin: 0">
+              <a
+                class="ref"
+                style="
+                  margin: 0;
+                  text-decoration: none;
+                  color: black;
+                  transition: 0.3s;
+                "
+                >Referencias</a
+              >
+            </h2>
+          </div>
+          <div class="collapse" style="transition: height 200ms">
+            <div style="flex: 1 1 auto; padding: 1rem 1rem">
+              <ol class="list">
+                <li>
+                  8-bit AVR Microcontroller with 32K Bytes In-System
+                  Programmable Flash.
+                  <a
+                    style="text-decoration: none"
+                    href="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf"
+                    >DataSheet</a
+                  >
+                </li>
+                <li>
+                    Méndez Luis. TUTORIAL DE ATMEL AVR's de 8-bits. Documento descargado de:
+                    <a
+                      style="text-decoration: none"
+                      href="https://www.avrfreaks.net/sites/default/files/CAPITULO%201A.pdf"
+                      target="_blank"
+                      >PDF</a
+                    >
+                  </li>
+                  <li>
+                    Datashet ATmega48P/88P/168P/328P de ATMEL, descargado de
+                    <a
+                      style="text-decoration: none"
+                      href="www.microchip.com"
+                      target="_blank"
+                      >Microchip</a
+                    >
+                  </li>
+                  <li>
+                    Marone José. Microcontroladores de Atmel. Documento descargado de:
+                    <a
+                      style="text-decoration: none"
+                      href="http://www.exa.unicen.edu.ar/catedras/tmicrocon/Material/3_Overview_Microcontroladores_ATMEL.pdf"
+                      target="_blank"
+                      >PDF</a
+                    >
+                  </li>
+                  <li>
+                    Espinosa, Felipe. ORGANIZACIÓN INTERNA DE LOS MICROCONTROLADORES, descargada de la página:
+                    <a
+                      style="text-decoration: none"
+                      href="http://www.utm.mx/~fsantiag/Micros/2_Organizacion_AVRs.pdf"
+                      target="_blank"
+                      >http://www.utm.mx/</a
+                    >
+                  </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <style>
+          .collapse.vis {
+            display: block;
+            transition: 0.3s;
+          }
+          .collapse {
+            display: none;
+            transition: 0.3s ease-in-out;
+          }
+        </style>
+
+        <!-- -------------------------------------------------------------------------------------- -->
+      </div>
+
+      <footer
+        class="container-fluid bg-grey"
+        style="padding-top: 0px; padding-left: 0"
+      >
+        <div class="container">
+          <!--primera columna-->
+          <div class="col">
+            <div class="your-item">
+              <img
+                src="../Imagenes/Facultad-de-ingenieria.png"
+                class="logo-footer"
+                style="display: block; margin: 15px auto"
+              />
+              <p class="styleFooter">Universidad de Carabobo</p>
+              <p class="styleFooter">Facultad de Ingeniería</p>
+              <p class="styleFooter">Escuela de Ingenieria Eléctrica</p>
+              <p id="TTO" class="styleFooter">Dpto. de Sistemas y Automática</p>
+              <p class="styleFooter">© 2021</p>
+            </div>
+          </div>
+
+          <!--segunda columna-->
+          <div class="col">
+            <h6
+              id="brand"
+              style="display: block; text-align: center; margin-bottom: 0"
+            >
+              Microprocesadores
+            </h6>
+            <h6 style="display: block; text-align: center; margin-bottom: 20px">
+              SA7E04
+            </h6>
+            <p style="display: block; text-align: center">
+              Prof: Whendy Garcia.
+            </p>
+            <a href="mailto: whendygarcia@gmail.com" class="btn-footer"
+              >Enviar un correo</a
+            ><br />
+            <a href="https://www.arduino.cc/" class="btn-footer" target="_blank"
+              >Ir a: Arduino - Home
+            </a>
+          </div>
+
+          <!--tercera columna-->
+          <div class="col">
+            <h6 style="margin-top: 10%">Búsqueda</h6>
+            <div class="social">
+              <a
+                href="https://instagram.com/electricaing_uc?igshid=1grr9yjuz5rk3"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/groups/35195859789/?ref=share"
+                target="_blank"
+                title="Facebook"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a
+                href="https://twitter.com/electricaing_uc?s=20"
+                target="_blank"
+                title="Twitter"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a
+                href="https://youtube.com/channel/UC-zreC_L2Uqd7vYe4GNi1Hw"
+                target="_blank"
+                title="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+            <form class="form-footer my-3" style="margin-bottom: 0 !important">
+              <input type="text" placeholder="search here...." name="search" />
+              <button id="go"><i class="fa fa-search"></i></button>
+            </form>
+            <p
+              class="subTitle"
+              style="
+                font-style: italic;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                padding-top: 5%;
+              "
+            >
+              Realizado por:
+            </p>
+            <p style="font-style: italic; padding: 0; margin-bottom: 0">
+              Victor Ojeda, Gilberto Virguez
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- floating button <a href="mailto: vctrinox@gmail.com" class="float"><i class="fa fa-envelope my-float"></i></a>-->
+      <div class="action" onclick="actionToggle()">
+        <span>+</span>
+        <ul
+          style="
+            font-family: 'Roboto', sans-serif;
+            height: 100vw;
+            overflow: auto;
+          "
+        >
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#microcontrolador">El Microcontrolador</a></li>
+
+        <li >
+          <a 
+            ><b>Bloques que lo componen</b>:</a
+          >
+        </li>
+        
+          <li><a href="#El-CPU">El CPU (Unidad Central de Proceso)</a></li>
+          <li><a href="#ALU">ALU</a></li>
+          <li><a href="#Memorias">Memorias</a></li>
+          <li><a href="#InterfazE/S">Interfaz de Entrada y Salida</a></li>
+        
+        <li>
+          <a href="#Arquitectura">Arquitectura de los Microcontroladores</a>
+        </li>
+        <li><a href="#Fabricantes">Fabricantes de Microcontroladores</a></li>
+
+        <li >
+          <a 
+            ><b>Microcontroladores de Atmel</b>:</a
+          >
+        </li>
+        
+          <li><a href="#historia">Un poco de historia</a></li>
+          <li><a href="#Familia">Familia Básica de los AVR</a></li>
+        
+        <li>
+          <a href="#Caracteristicas"
+            >Características Generales de la Familia de los Microcontroladores
+            AVR</a
+          >
+        </li>
+
+        <li >
+          <a 
+            ><b>Arquitectura del ATmega 328P</b>:</a
+          >
+        </li>
+        
+          <li>
+            <a href="#ATmega-328P"
+              >Diagrama de bloques del microcontrolador AVR de Atmel de 8
+              bits</a
+            >
+          </li>
+          <li>
+            <a href="#Diagrama-de-bloques-de-la-arquitectura-AVR"
+              >Diagrama de bloques de la arquitectura AVR</a
+            >
+          </li>
+          <li>
+            <a href="#RDPG">Registros X, Y, Z y de propósito general</a>
+          </li>
+          <li><a href="#Memoria-de-Datos">Memoria de Datos</a></li>
+          <li><a href="#RPG">Registros de propósito general</a></li>
+          <li><a href="#RegistrosI/O">Registros I/O</a></li>
+          <li><a href="#RegistrosI/O-E">Registros I/O Extendidos</a></li>
+          <li><a href="#EEPROM">Memoria EEPROM de datos</a></li>
+          <li><a href="#Memoria-de-programa">Memoria de programa</a></li>
+          <li>
+            <a href="#Configuracion-de-pines"
+              >Configuración de pines del ATMega 328P</a
+            >
+          </li>
+          <li><a href="#E/S">Puertos de Entrada/Salida</a></li>
+          <li><a href="#Ejemplo">Ejemplo</a></li>
+          
+       
+        <li ><a href="#resumen">Resumen de registros relacionados con el manejo de puertos</a></li>
+        </ul>
+      </div>
+      <!-- End of floating button -->
+    </div>
+  </body>
+</html>

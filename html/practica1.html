@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRÁCTICA #1. SEMESTRE 1-2021</title>
+    <link rel="shortcut icon" href="..\Imagenes\Universidad-de-carabobo.png" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="..\css\prueba.css" />
+    <link rel="stylesheet" href="..\css\media-screen.css" />
+    <link rel="stylesheet" href="..\css\descripcion-de-las-librerias.css" />
+    <link rel="stylesheet" href="..\css\Manejo-de-la-pantalla-LCD.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css"
+    />
+    <link rel="stylesheet" href="..\css\como-agregar-librerias.css" />
+    <!-- Js file -->
+    <script src="../Js/prueba.js" defer></script>
+    <script src="../Js/menu.js" defer></script>
+    <script src="../Js/btn.js" defer></script>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+  </head>
+
+  <body>
+    <style>
+      p {
+        margin: 0 !important;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <!-- Top content -->
+    <div class="top-content">
+      <div class="icon-bar">
+        <a class="microchip" href="../index.html">
+          <i class="fas fa-microchip"></i>
+        </a>
+      </div>
+      <label class="label"
+        ><a href="../index.html">Microprocesadores UC</a></label
+      >
+
+      <div class="dropdow newDp inDevice">
+        <a class="darkTheme" style="cursor: pointer"
+          ><i class="fas fa-adjust" style="color: white"></i
+        ></a>
+      </div>
+
+      <ul>
+        <!-- Seccion de la teoria-->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Teoria</a></li>
+
+          <div class="dropdow-content">
+            <div class="dropdow-content1">
+              <a href="#" class="tema1"
+                >Tema 1</i
+              ></a>
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Sistemas microprogramables</a
+                >
+                <a href="Dispositivos-digitales-microprogramables.html">Microcontroladores/Microprocesadores</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content2">
+              <a href="#">Tema 2</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Arquitectura de un sistema microprogramable</a
+                >
+                <a href="ATmega328P.html">Arquitectura y Caracteristicas</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content3">
+              <a href="#">Tema 3</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Temporizaciones e interrupciones</a
+                >
+                <a href="Timer-0.html">Timer 0</a>
+                <a href="Timer-1.html">Timer 1</a>
+                <a href="Timer-2.html">Timer 2</a>
+                <a href="Manejo-de-interrupciones.html"
+                  >Manejo de interrupciones</a
+                >
+                <a href="Modulación-por-ancho-de-pulso.html"
+                  >Modulación por ancho de pulso <i>PWM</i></a
+                >
+                <a href="Timer0-Modo-Fase-Correcta.html"
+                  >PWM Timer0 Modo Fase Correcta</a
+                >
+                <a href="Timer0-Modo-Rapido.html">PWM Timer0 Modo Rapido</a>
+                <a href="Timer1-Modo-Fase-Correcta.html"
+                  >PWM Timer1 Modo Fase Correcta</a
+                >
+                <a href="Timer1-Modo-Rapido.html">PWM Timer1 Modo Rapido</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content4">
+              <a href="#">Tema 4</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Conversión Digital/Analógica - Analógica/Digital</a
+                >
+                <a href="Convertidor-ADC.html">Convertidor ADC</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content5">
+              <a href="#">Tema 5</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Comunicación serial</a
+                >
+                <a href="USART.html">Comunicación Serial USART</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de laboratorio -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Laboratorio</a></li>
+
+          <div class="dropdow-content">
+            <div class="dropdow-content6">
+              <a href="#">Primeros pasos</a>
+
+              <ul>
+                <a href="Instalacion-de-Proteus-8.5.html"
+                  >Instalación de proteus 8.5</a
+                >
+
+                <a href="como-agregar-librerias-a-proteus-8.5.html"
+                  >Como agregar librerias adicionales en Proteus 8.5</a
+                >
+                <a href="Descripcion-y-manejo.html"
+                  >Descripcion y manejo de las librerias</a
+                >
+                <a href="IDE-Arduino.html">IDE software Arduino</a>
+                <a href="IDE-AVR-Studio-7.html">IDE AVR Studio 7</a>
+                <a href="Programar-Arduino-AVRStudio.html"
+                  >Programar el Arduino con AVR Studio 7</a
+                >
+                <a href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                  >Introduccion al lenguaje de programacion en C</a
+                >
+                <a href="manejo-del-display-7seg.html"
+                  >Manejo del display 7 Segmentos</a
+                >
+                <a href="Manejo-de-la-pantalla-LCD.html"
+                  >Manejo de la pantalla LCD</a
+                >
+              </ul>
+            </div>
+            <div class="dropdow-content7">
+              <a href="practica1.html" class="active">Práctica 1</a>
+              <a href="practica2.html">Práctica 2</a>
+              <a href="practica3.html">Práctica 3</a>
+              <a href="practica4.html">Práctica 4</a>
+              <a href="practica5.html">Práctica 5</a>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de descarga -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Descargas</a></li>
+          <div class="dropdow-content" >
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+        <!---->
+        <div class="dropdow newDp">
+          <li>
+            <a class="darkTheme" style="cursor: pointer"
+              ><i class="fas fa-adjust" style="color: white"></i
+            ></a>
+          </li>
+          <div class="dropdow-content"></div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- Haburguer menu -->
+    <div id="nav-icon2">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Menu in devices -->
+
+    <div class="content-device">
+      <ul>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction()">Teoria</li>
+
+          <div class="dropdow-content device">
+            <a href="#" class="tema0 tema"
+              >Tema 1: Sistemas microprogramables</a
+            >
+
+            <div class="subContent" style="margin-left: 2%; ">
+              <a style="padding-right: 0;"
+                class="before"
+                href="Dispositivos-digitales-microprogramables.html"
+                >Microcontroladores/Microprocesadores</a
+              >
+            </div>
+
+            <a class="tema1 tema" href="#"
+              >Tema 2: Arquitectura de un sistema microprogramable</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="ATmega328P.html"
+                >Arquitectura y Caracteristicas</a
+              >
+            </div>
+
+            <a class="tema2 tema" href="#"
+              >Tema 3: Temporizaciones e interrupciones</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Timer-0.html">Timer 0</a>
+              <a class="before" href="Timer-1.html">Timer 1</a>
+              <a class="before" href="Timer-2.html">Timer 2</a>
+              <a class="before" href="Manejo-de-interrupciones.html"
+                >Manejo de interrupciones</a
+              >
+              <a class="before" href="Modulación-por-ancho-de-pulso.html"
+                >Modulación por ancho de pulso <i>PWM</i></a
+              >
+              <a class="before" href="Timer0-Modo-Fase-Correcta.html"
+                >PWM Timer0 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer0-Modo-Rapido.html"
+                >PWM Timer0 Modo Rapido</a
+              >
+              <a class="before" href="Timer1-Modo-Fase-Correcta.html"
+                >PWM Timer1 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer1-Modo-Rapido.html"
+                >PWM Timer1 Modo Rapido</a
+              >
+            </div>
+
+            <a class="tema3 tema" href="#"
+              >Tema 4: Conversión Digital/Analógica - Analógica/Digital</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Convertidor-ADC.html">Convertidor ADC</a>
+            </div>
+
+            <a class="tema4 tema" href="#">Tema 5: Comunicación serial </a>
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="USART.html">Comunicación Serial USART</a>
+            </div>
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction2()">Laboratorio</li>
+
+          <div class="dropdow-content device2">
+            <!---->
+            <a class="tema5 tema" href="#">Primeros pasos</a>
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Instalacion-de-Proteus-8.5.html"
+                >Instalación de proteus 8.5</a
+              >
+              <a class="before" href="como-agregar-librerias-a-proteus-8.5.html"
+                >Como agregar librerias adicionales en Proteus 8.5</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >Descripcion y manejo de las librerias</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >IDE software Arduino</a
+              >
+              <a class="before" href="IDE-AVR-Studio-7.html"
+                >IDE AVR Studio 7</a
+              >
+              <a style="padding-right: 0;" class="before" href="Programar-Arduino-AVRStudio.html"
+                >Programar el Arduino con AVR Studio 7</a
+              >
+              <a
+                class="before"
+                href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                >Introduccion al lenguaje de programacion en C</a
+              >
+              <a class="before" href="manejo-del-display-7seg.html"
+                >Manejo del display 7 Segmentos</a
+              >
+              <a class="before" href="Manejo-de-la-pantalla-LCD.html"
+                >Manejo de la pantalla LCD</a
+              >
+            </div>
+
+            <a href="practica1.html">Práctica 1</a>
+            <a href="practica2.html">Práctica 2</a>
+            <a href="practica3.html">Práctica 3</a>
+            <a href="practica4.html">Práctica 4</a>
+            <a href="practica5.html">Práctica 5</a>
+
+            <!---->
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction3()">Descargas</li>
+          <div class="dropdow-content device3">
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- sidenav content -->
+    <div class="sidenav2">
+      <label
+        ><a href="#" style="color: black">Práctica #1: Manejo de entradas y salidas digitales</a></label
+      >
+      <ul>
+       <li><a href="#Objetivo-general">Ojetivo general</a></li>
+       <li><a href="#obj-especificos">Objetivos Específicos</a></li>
+       <li><a href="#propuesta">Propuesta de la práctica</a></li>
+       <li><a href="#funcionamiento">Funcionamiento</a></li>
+       <li><a href="#consideraciones">Consideraciones</a></li>
+       <li><a href="#conexiones">Conexión de terminales de E/S</a></li>
+
+      </ul>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <!--title content -->
+      <div class="h1-content  container" style="align-items: center;">
+        <!-- Columna 1 -->
+         <div class="col your-item2 desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 85%;"
+               />
+               
+         </div>
+          <!-- Col 1 in Devices -->
+         <div class="col deviceCol">
+           <div class="container" style="flex-direction: row !important;">
+             <div class="col your-item2">
+               <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 70%;"
+               />
+             </div>
+             <div class="col">
+               <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 50%;"
+               />
+             </div>
+           </div>
+         </div>
+         <!-- Col 2 in Devices -->
+         <div class="col deviceCol">
+           <div style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+         </div>
+ 
+ 
+         <!-- Columna 2 -->
+         <div class="col your-item2">
+           <div class="desktopCol" style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+           <div class="page-title">
+             <h1 class="titleH7" style="font-size: 2em; margin-top: 15px; padding-top: 0;">
+              Práctica #1: Manejo de entradas y salidas digitales
+           </h1>
+           </div>
+           
+         </div>
+ 
+         <!-- Columna 3 -->
+         <div class="col desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 65%;"
+               />
+         </div>
+         
+         
+       </div>
+      <!--main content -->
+      <div class="main-content">
+        <!-- -------------------------------------------------------------------------------------- -->
+        <p><b>Duración</b>: 2 Semanas.</p>
+        <p>
+           <b class = "jump" id="Objetivo-general">Objetivo General</b>:<br>
+           <ul>
+               <li>Desarrollar programas en lenguaje ensamblador para el manejo de entradas y salidas digitales de un microcontrolador orientados a la resolución de problemas</li>
+           </ul>
+           <b class="jump" id="obj-especificos">Objetivos Específicos</b>: <br>
+            <ul>
+                <li>Elaborar diagramas de flujo, diagramas de estado, seudocódigos y otras herramientas para describir la solución de problemas mediante el uso de un microcontrolador</li>
+                <li>Escribir programas en lenguaje ensamblador utilizando el entorno AVR-Studio 7</li>
+                <li>Simular el funcionamiento de un circuito digital basado en el microcontrolador ATMEGA 328p</li>
+                <li>Verificar la operación utilizando el hardware disponible en el laboratorio</li>
+            </ul>
+        </p>
+
+        <h5 class="jump" id="propuesta"><b>Elabore un diagrama de flujo o seudocódigo que describa un programa para la siguiente aplicación</b>:</h5>
+        <p>
+            Se requiere elaborar un sistema automatizado para la elaboración de cloro partiendo de la materia prima NaClO, además del envasado del mismo por medio de una línea de llenado conformado por los elementos mostrados en la figura 1.
+        </p>
+        <img
+          class="resp1"
+          style="width: 90%"
+          src="..\Imagenes\practicas\practica1.png"
+          alt="Practica #1"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i>Figura 1: Componentes del sistema automático para la elaboración de cloro</i>
+        </p>
+        <p>Los sensores que miden el nivel de líquido dentro de los tanques A y B trabajan de la siguiente manera:</p>
+        <ul>
+          <li><b>LLA/LLB</b>: Nivel bajo del tanque A/B. LLA/B = 1 => fluido por debajo del sensor. LLA/B = 0 => fluido a nivel o por encima del sensor.</li>
+          <li><b>HLA/HLB</b>: Nivel alto del tanque A/B. HL = 1 => fluido a nivel o por encima del sensor. HL = 0 => fluido por debajo del sensor</li>
+        </ul>
+        <p>Los sensores de llenado y de parada para el envasado y movilidad de la cinta transportadora funcionan de la siguiente manera:</p>
+        <ul>
+            <li><b>SLL</b>: Sensor de llenado para los envases. SLL = 1 => Envase lleno. SLL = 0 => envase sin llenar.</li>
+            <li><b>SP</b>:  Sensor de parada. SP = 1 => Se detectó un envase en la posición adecuada. SP = 0 => No se ha detectado presencia del envase</li>
+        </ul>
+
+        <p>El Sensor de alta presión funcionan de la siguiente manera:</p>
+        <ul>
+            <li><b>PHS</b>: Sensor de alta presión. PHS = 1 => Alta presión. PHS = 0 => Presión adecuada.</li>
+        </ul>
+
+        <p>Considere para el resto de los componentes lo siguiente:</p>
+        <ul>
+            <li><b>Válvulas</b>: Vx = 1 => Válvula abierta. Vx = 0 => Válvula cerrada.</li>
+            <li><b>Bombas</b>: Bx = 1 => Bomba encendida. Bx = 0 => Bomba apagada.</li>
+            <li><b>Motores</b>: Mx = 1 => Motor encendido. Mx = 0 => Motor apagado.</li>
+        </ul>
+            
+        <h5 class="jump" id="funcionamiento"><B>FUNCIONAMIENTO</B>:</h5>
+        <ul>
+            <li>Inicialmente los tanques A y B se encuentran vacíos.</li>
+            <li>El proceso inicia cuando se presiona el pulsador START.</li>
+            <li>Una vez iniciado el proceso, se abre la válvula V1 para permitir el paso de agua hacia el tanque A.</li>
+            <li>Cuando el agua llegue al máximo nivel (Impuesto por HLA) se cerrara la válvula V1 impidiendo que el tanque se desborde</li>
+            <li>Una vez que el tanque A se encuentre lleno, se procede al mezclado para la preparación del cloro, por lo que el tanque B se llenara con un 87.5% de agua en el cual, al llegar a este nivel, se encenderá el motor M1 para dar inicio al proceso de mezclado mientras que el 12.5% restante se va llenando con la materia prima NaClO, asuma que el tanque de la materia prima no posee restricciones.</li>
+            <li>Al llenarse por completo el tanque B se apaga el motor M1 por lo que el proceso de mezclado se detiene y luego se abre la válvula V4</li>
+            <li>Para que inicie el proceso de llenado de envases, se debe verificar que haya un envase vacío en la línea de llenado, para esto haga uso de los sensores SLL y SP</li>
+            <li>Una vez detectado dicho envase, se abre la válvula V5 y simultáneamente se enciende la bomba BB, este proceso ocurre hasta que el envase se encuentre totalmente lleno a lo que, se apaga la bomba BB y se cierra la válvula V5</li>
+            <li>Una vez ocurrido esto, se enciende el motor M2 para mover la cinta transportadora que permitirá el ingreso de un nuevo envase vacío a lo que, al ser detectado por SP el motor M2 se apaga deteniendo el desplazamiento.</li>
+            <li>Este proceso se repite tantas veces lo permita el nivel del tanque B, por lo que, al vaciarse por completo se cierra la válvula V4 e inicia un nuevo proceso de mezclado.</li>
+        </ul>
+
+        <h5 class="jump" id="consideraciones"><b>CONSIDERACIONES</b>:</h5>
+        <ul>
+            <li>El sensor PHS es utilizado para protección de la bomba del tanque A, si PHS detecta un nivel alto de presión la bomba A se apagará</li>
+            <li>El sensor de llenado (SLL) detecta cuando el envase está completamente lleno.</li>
+            <li>El sensor de parada (SP) detecta la posición del envase cuando éste se encuentra justo debajo de la línea de llenado deteniendo, en este sentido, al motor M2</li>
+            <li>Considere la necesidad de añadir sensores si este los requiere.</li>
+            <li>Tome en cuenta la simulación de los motores a través de LED’s, dado que, el diagrama de potencia no será objetivo de estudio en este apartado</li>
+            <li>El sistema arranca con una señal activo bajo</li>
+        </ul>
+
+        <h5 class="jump" id="conexiones"><b>CONEXIÓN DE TERMINALES DE ENTRADA / SALIDA</b></h5>
+        <h6><b>Para la implementación del algoritmo elaborado anteriormente deberá considerar lo siguiente</b>:</h6>
+        <ul>
+            <li>El pulsador START estará conectado al terminal PC0</li>
+            <li>El sensor HLA se representará mediante un interruptor conectado en el terminal PC1</li>
+            <li>El sensor LLA se representará mediante un interruptor conectado en el terminal PC2</li>
+            <li>El sensor HLB se representará mediante un interruptor conectado en el terminal PC3</li>
+            <li>El sensor LLB se representará mediante un interruptor conectado en el terminal PC4</li>
+            <li>El sensor PHS se representará mediante un interruptor conectado en el terminal PB1</li>
+            <li>El sensor SP se representará mediante un interruptor conectado en el terminal PB3</li>
+            <li>El sensor SLL se representará mediante un interruptor conectado en el terminal PB4</li>
+            <li>La bomba BA se representará mediante un led conectado en el pin PB0</li>
+            <li>La bomba BB se representará mediante un led conectado en el pin PD7</li>
+            <li>El motor M1 se representará mediante un led conectado en el pin PD6</li>
+            <li>El motor M2 se representará mediante un led conectado en el pin PD5</li>
+            <li>Las Válvulas de V1 hasta V4 se representarán mediante led's conectados en los pines desde PD4 hasta PD1</li>
+            <li>La válvula V5 se representará mediante un led conectado en el pin PD0</li>
+        </ul>
+
+        
+        <!-- -------------------------------------------------------------------------------------- -->
+       
+        <!-- -------------------------------------------------------------------------------------- -->
+      </div>
+
+      <footer
+        class="container-fluid bg-grey"
+        style="padding-top: 0px; padding-left: 0"
+      >
+        <div class="container">
+          <!--primera columna-->
+          <div class="col">
+            <div class="your-item">
+              <img
+                src="../Imagenes/Facultad-de-ingenieria.png"
+                class="logo-footer"
+                style="display: block; margin: 15px auto"
+              />
+              <p class="styleFooter">Universidad de Carabobo</p>
+              <p class="styleFooter">Facultad de Ingeniería</p>
+              <p class="styleFooter">Escuela de Ingenieria Eléctrica</p>
+              <p id="TTO" class="styleFooter">Dpto. de Sistemas y Automática</p>
+              <p class="styleFooter">© 2021</p>
+            </div>
+          </div>
+
+          <!--segunda columna-->
+          <div class="col">
+            <h6
+              id="brand"
+              style="display: block; text-align: center; margin-bottom: 0"
+            >
+              Microprocesadores
+            </h6>
+            <h6 style="display: block; text-align: center; margin-bottom: 20px">
+              SA7E04
+            </h6>
+            <p style="display: block; text-align: center">
+              Prof: Whendy Garcia.
+            </p>
+            <a href="mailto: whendygarcia@gmail.com" class="btn-footer"
+              >Enviar un correo</a
+            ><br />
+            <a href="https://www.arduino.cc/" class="btn-footer" target="_blank"
+              >Ir a: Arduino - Home
+            </a>
+          </div>
+
+          <!--tercera columna-->
+          <div class="col">
+            <h6 style="margin-top: 10%">Búsqueda</h6>
+            <div class="social">
+              <a
+                href="https://instagram.com/electricaing_uc?igshid=1grr9yjuz5rk3"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/groups/35195859789/?ref=share"
+                target="_blank"
+                title="Facebook"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a
+                href="https://twitter.com/electricaing_uc?s=20"
+                target="_blank"
+                title="Twitter"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a
+                href="https://youtube.com/channel/UC-zreC_L2Uqd7vYe4GNi1Hw"
+                target="_blank"
+                title="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+            <form class="form-footer my-3" style="margin-bottom: 0 !important">
+              <input type="text" placeholder="search here...." name="search" />
+              <button id="go"><i class="fa fa-search"></i></button>
+            </form>
+            <p
+              class="subTitle"
+              style="
+                font-style: italic;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                padding-top: 5%;
+              "
+            >
+              Realizado por:
+            </p>
+            <p style="font-style: italic; padding: 0; margin-bottom: 0">
+              Victor Ojeda, Gilberto Virguez
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      
+      <div class="action" onclick="actionToggle()">
+        <span>+</span>
+        <ul
+          style="
+            font-family: 'Roboto', sans-serif;
+          "
+        >
+        <li><a href="#Objetivo-general">Ojetivo general</a></li>
+       <li><a href="#obj-especificos">Objetivos Específicos</a></li>
+       <li><a href="#propuesta">Propuesta de la práctica</a></li>
+       <li><a href="#funcionamiento">Funcionamiento</a></li>
+       <li><a href="#consideraciones">Consideraciones</a></li>
+       <li><a href="#conexiones">Conexión de terminales de E/S</a></li>
+    
+        </ul>
+      </div>
+      <!-- End of floating button -->
+    </div>
+  </body>
+</html>

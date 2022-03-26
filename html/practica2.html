@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRÁCTICA #2. SEMESTRE 1-2021</title>
+    <link rel="shortcut icon" href="..\Imagenes\Universidad-de-carabobo.png" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="..\css\prueba.css" />
+    <link rel="stylesheet" href="..\css\media-screen.css" />
+    <link rel="stylesheet" href="..\css\descripcion-de-las-librerias.css" />
+    <link rel="stylesheet" href="..\css\Manejo-de-la-pantalla-LCD.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css"
+    />
+    <link rel="stylesheet" href="..\css\como-agregar-librerias.css" />
+    <!-- Js file -->
+    <script src="../Js/prueba.js" defer></script>
+    <script src="../Js/menu.js" defer></script>
+    <script src="../Js/btn.js" defer></script>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+  </head>
+
+  <body>
+    <style>
+      p {
+        margin: 0 !important;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <!-- Top content -->
+    <div class="top-content">
+      <div class="icon-bar">
+        <a class="microchip" href="../index.html">
+          <i class="fas fa-microchip"></i>
+        </a>
+      </div>
+      <label class="label"
+        ><a href="../index.html">Microprocesadores UC</a></label
+      >
+
+      <div class="dropdow newDp inDevice">
+        <a class="darkTheme" style="cursor: pointer"
+          ><i class="fas fa-adjust" style="color: white"></i
+        ></a>
+      </div>
+
+      <ul>
+        <!-- Seccion de la teoria-->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Teoria</a></li>
+
+          <div class="dropdow-content">
+            <div class="dropdow-content1">
+              <a href="#" class="tema1"
+                >Tema 1</a>
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Sistemas microprogramables</a
+                >
+                <a href="Dispositivos-digitales-microprogramables.html">Microcontroladores/Microprocesadores</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content2">
+              <a href="#">Tema 2</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Arquitectura de un sistema microprogramable</a
+                >
+                <a href="ATmega328P.html">Arquitectura y Caracteristicas</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content3">
+              <a href="#">Tema 3</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Temporizaciones e interrupciones</a
+                >
+                <a href="Timer-0.html">Timer 0</a>
+                <a href="Timer-1.html">Timer 1</a>
+                <a href="Timer-2.html">Timer 2</a>
+                <a href="Manejo-de-interrupciones.html"
+                  >Manejo de interrupciones</a
+                >
+                <a href="Modulación-por-ancho-de-pulso.html"
+                  >Modulación por ancho de pulso <i>PWM</i></a
+                >
+                <a href="Timer0-Modo-Fase-Correcta.html"
+                  >PWM Timer0 Modo Fase Correcta</a
+                >
+                <a href="Timer0-Modo-Rapido.html">PWM Timer0 Modo Rapido</a>
+                <a href="Timer1-Modo-Fase-Correcta.html"
+                  >PWM Timer1 Modo Fase Correcta</a
+                >
+                <a href="Timer1-Modo-Rapido.html">PWM Timer1 Modo Rapido</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content4">
+              <a href="#">Tema 4</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Conversión Digital/Analógica - Analógica/Digital</a
+                >
+                <a href="Convertidor-ADC.html">Convertidor ADC</a>
+              </ul>
+            </div>
+
+            <div class="dropdow-content5">
+              <a href="#">Tema 5</a>
+
+              <ul>
+                <a
+                  href="#"
+                  style="
+                    border-bottom: 1px solid rgba(85, 85, 85, 0.014);
+                    text-align: center;
+                    background-color: #b5dfed;
+                  "
+                  >Comunicación serial</a
+                >
+                <a href="USART.html">Comunicación Serial USART</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de laboratorio -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Laboratorio</a></li>
+
+          <div class="dropdow-content">
+            <div class="dropdow-content6">
+              <a href="#">Primeros pasos</a>
+
+              <ul>
+                <a href="Instalacion-de-Proteus-8.5.html"
+                  >Instalación de proteus 8.5</a
+                >
+
+                <a href="como-agregar-librerias-a-proteus-8.5.html"
+                  >Como agregar librerias adicionales en Proteus 8.5</a
+                >
+                <a href="Descripcion-y-manejo.html"
+                  >Descripcion y manejo de las librerias</a
+                >
+                <a href="IDE-Arduino.html">IDE software Arduino</a>
+                <a href="IDE-AVR-Studio-7.html">IDE AVR Studio 7</a>
+                <a href="Programar-Arduino-AVRStudio.html"
+                  >Programar el Arduino con AVR Studio 7</a
+                >
+                <a href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                  >Introduccion al lenguaje de programacion en C</a
+                >
+                <a href="manejo-del-display-7seg.html"
+                  >Manejo del display 7 Segmentos</a
+                >
+                <a href="Manejo-de-la-pantalla-LCD.html"
+                  >Manejo de la pantalla LCD</a
+                >
+              </ul>
+            </div>
+            <div class="dropdow-content7">
+              <a href="practica1.html">Práctica 1</a>
+              <a href="practica2.html" class="active">Práctica 2</a>
+              <a href="practica3.html">Práctica 3</a>
+              <a href="practica4.html">Práctica 4</a>
+              <a href="practica5.html">Práctica 5</a>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de descarga -->
+        <div class="dropdow">
+          <li class="dropbt"><a href="#">Descargas</a></li>
+          <div class="dropdow-content" >
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+        <!---->
+        <div class="dropdow newDp">
+          <li>
+            <a class="darkTheme" style="cursor: pointer"
+              ><i class="fas fa-adjust" style="color: white"></i
+            ></a>
+          </li>
+          <div class="dropdow-content"></div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- Haburguer menu -->
+    <div id="nav-icon2">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Menu in devices -->
+
+    <div class="content-device">
+      <ul>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction()">Teoria</li>
+
+          <div class="dropdow-content device">
+            <a href="#" class="tema0 tema"
+              >Tema 1: Sistemas microprogramables</a
+            >
+
+            <div class="subContent" style="margin-left: 2%; ">
+              <a style="padding-right: 0;"
+                class="before"
+                href="Dispositivos-digitales-microprogramables.html"
+                >Microcontroladores/Microprocesadores</a
+              >
+            </div>
+
+            <a class="tema1 tema" href="#"
+              >Tema 2: Arquitectura de un sistema microprogramable</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="ATmega328P.html"
+                >Arquitectura y Caracteristicas</a
+              >
+            </div>
+
+            <a class="tema2 tema" href="#"
+              >Tema 3: Temporizaciones e interrupciones</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Timer-0.html">Timer 0</a>
+              <a class="before" href="Timer-1.html">Timer 1</a>
+              <a class="before" href="Timer-2.html">Timer 2</a>
+              <a class="before" href="Manejo-de-interrupciones.html"
+                >Manejo de interrupciones</a
+              >
+              <a class="before" href="Modulación-por-ancho-de-pulso.html"
+                >Modulación por ancho de pulso <i>PWM</i></a
+              >
+              <a class="before" href="Timer0-Modo-Fase-Correcta.html"
+                >PWM Timer0 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer0-Modo-Rapido.html"
+                >PWM Timer0 Modo Rapido</a
+              >
+              <a class="before" href="Timer1-Modo-Fase-Correcta.html"
+                >PWM Timer1 Modo Fase Correcta</a
+              >
+              <a class="before" href="Timer1-Modo-Rapido.html"
+                >PWM Timer1 Modo Rapido</a
+              >
+            </div>
+
+            <a class="tema3 tema" href="#"
+              >Tema 4: Conversión Digital/Analógica - Analógica/Digital</a
+            >
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Convertidor-ADC.html">Convertidor ADC</a>
+            </div>
+
+            <a class="tema4 tema" href="#">Tema 5: Comunicación serial </a>
+
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="USART.html">Comunicación Serial USART</a>
+            </div>
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction2()">Laboratorio</li>
+
+          <div class="dropdow-content device2">
+            <!---->
+            <a class="tema5 tema" href="#">Primeros pasos</a>
+            <div class="subContent" style="margin-left: 5%">
+              <a class="before" href="Instalacion-de-Proteus-8.5.html"
+                >Instalación de proteus 8.5</a
+              >
+              <a class="before" href="como-agregar-librerias-a-proteus-8.5.html"
+                >Como agregar librerias adicionales en Proteus 8.5</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >Descripcion y manejo de las librerias</a
+              >
+              <a class="before" href="Descripcion-y-manejo.html"
+                >IDE software Arduino</a
+              >
+              <a class="before" href="IDE-AVR-Studio-7.html"
+                >IDE AVR Studio 7</a
+              >
+              <a style="padding-right: 0;" class="before" href="Programar-Arduino-AVRStudio.html"
+                >Programar el Arduino con AVR Studio 7</a
+              >
+              <a
+                class="before"
+                href="introduccion-al-lenguaje-de-programacion-en-C.html"
+                >Introduccion al lenguaje de programacion en C</a
+              >
+              <a class="before" href="manejo-del-display-7seg.html"
+                >Manejo del display 7 Segmentos</a
+              >
+              <a class="before" href="Manejo-de-la-pantalla-LCD.html"
+                >Manejo de la pantalla LCD</a
+              >
+            </div>
+
+            <a href="practica1.html">Práctica 1</a>
+            <a href="practica2.html">Práctica 2</a>
+            <a href="practica3.html">Práctica 3</a>
+            <a href="practica4.html">Práctica 4</a>
+            <a href="practica5.html">Práctica 5</a>
+
+            <!---->
+          </div>
+        </div>
+        <div class="dropdow">
+          <li class="dropbt" onclick="myFunction3()">Descargas</li>
+          <div class="dropdow-content device3">
+            <a
+              href="https://mega.nz/folder/PJBnTSaB#Sb-LwH7cwkHzQJKevcpG1g"
+              target="_blank"
+              >Descargar archivos en pdf</a
+            >
+            <a
+              href="https://mega.nz/folder/fE5AAQhY#IVL100RFiLY0-649gnbLAw"
+              target="_blank"
+              >Practicas del Laboratorio</a
+            >
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- sidenav content -->
+    <div class="sidenav2">
+      <label
+        ><a href="#" style="color: black">Práctica #2: Manejo de tablas y display</a></label
+      >
+      <ul>
+       <li><a href="#Objetivo-general">Ojetivo general</a></li>
+       <li><a href="#obj-especificos">Objetivos Específicos</a></li>
+       <li><a href="#prelaboratorio">Prelaboratorio</a></li>
+       <li><a href="#laboratorio">Laboratorio</a></li>
+       <li><a href="#3-bucles">Rutina de 3 Bucles para aproximadamente 1 segundo de retardo</a></li>
+        <li><a href="#Mostrar">Rutina para mostrar en display 7 seg catodo comun el arduino uno</a></li>
+      </ul>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <!--title content -->
+      <div class="h1-content  container" style="align-items: center;">
+        <!-- Columna 1 -->
+         <div class="col your-item2 desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 85%;"
+               />
+               
+         </div>
+          <!-- Col 1 in Devices -->
+         <div class="col deviceCol">
+           <div class="container" style="flex-direction: row !important;">
+             <div class="col your-item2">
+               <img
+                 src="../Imagenes/Facultad-de-ingenieria.png"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 70%;"
+               />
+             </div>
+             <div class="col">
+               <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 50%;"
+               />
+             </div>
+           </div>
+         </div>
+         <!-- Col 2 in Devices -->
+         <div class="col deviceCol">
+           <div style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+         </div>
+ 
+ 
+         <!-- Columna 2 -->
+         <div class="col your-item2">
+           <div class="desktopCol" style="font-family: 'Roboto', sans-serif; margin: 10px;">
+             <p class="styleFooter" style="font-size: 12px !important;">Universidad de Carabobo</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Facultad de Ingeniería</p>
+             <p class="styleFooter" style="font-size: 12px !important;">Escuela de Ingenieria Eléctrica</p>
+             <p id="TTO" class="styleFooter" style="font-size: 12px !important;">Dpto. de Sistemas y Automática</p>
+             
+         </div>
+           <div class="page-title">
+             <h1 class="titleH7" style="font-size: 2em; margin-top: 15px; padding-top: 0;">
+              Práctica #2: Manejo de tablas y display
+           </h1>
+           </div>
+           
+         </div>
+ 
+         <!-- Columna 3 -->
+         <div class="col desktopCol" style="width: 30%;">
+           <img
+                 src="../Imagenes/ING_ELECT.jpg"
+                 class="logo-footer"
+                 style="display: block; margin: 15px auto; width: 65%;"
+               />
+         </div>
+         
+         
+       </div>
+      <!--main content -->
+      <div class="main-content">
+        <!-- -------------------------------------------------------------------------------------- -->
+        <p><b>Duración</b>: 2 Semanas.</p>
+        <p>
+           <b class = "jump" id="Objetivo-general">Objetivo General</b>:<br>
+           <ul>
+               <li>Eliminar el Rebote inherente a las entradas digitales implementadas mediante pulsadores y familiarizarse con el manejo de tablas.</li>
+           </ul>
+           <b class="jump" id="obj-especificos">Objetivos Específicos</b>: <br>
+            <ul>
+                <li>Realizar conversiones entre códigos mediante el manejo de tablas.</li>
+                <li>Manejar Displays siete segmentos.</li>
+                <li>Implementar rutinas de retardo de tiempo.</li>
+                <li>Eliminar el efecto rebote.</li>
+            </ul>
+        </p>
+
+        <h5 class="jump" id="prelaboratorio"><b>PRELABORATORIO</b>:</h5>
+        <ol>
+            <li>Programar la rutina vista en la clase de Teoría para realizar conversiones de Hexadecimal a 7 segmentos y manejar displays ánodo o cátodo común.</li>
+            <li>¿En qué consiste el fenómeno del “Rebote”? y cuál es el tiempo aproximado de duración del fenómeno de rebote en una entrada tipo pulsador digital?</li>
+            <li>Programar una rutina de retardo por software para eliminar el rebote de pulsadores.</li>
+            <li>Investigue el funcionamiento y conexiones para el modulo de Arduino KY-032: sensor de obstáculo.</li>
+            <li>Investigue el funcionamiento y conexiones para el modulo de Arduino KY-004: pulsador</li>
+            <li>Elabore el diagrama de flujo y programa en assembler para un proceso como el que se explica a continuación: Se tiene un proceso que en una de sus etapas traslada una a la vez, una serie de piezas terminadas, hasta una estación de encajonado. Una vez que se ha realizado el trasladado de la cantidad de piezas configuradas por un usuario, (previo al inicio del proceso); otra etapa del proceso retira la caja y coloca de forma automática, una caja vacía para repetir la operación. (ver Figura1)</li>
+        </ol>
+        <img
+          class="resp1"
+          style="width: 50%; margin-top: 5%;"
+          src="..\Imagenes\practicas\practica2.png"
+          alt="Practica #2"
+        />
+        <p style="text-align: center; padding: 10px 0; font-size: 13px">
+          <i>Figura 1: Proceso de traslado de piezas</i>
+        </p>
+
+        <p>Inicialmente se ajusta la cantidad de piezas a detectar para trasladar a la estación de encajonado (solo se efectúa una vez, antes de iniciar el proceso), contando para esto con un pulsador C, el sistema debe ajustar la cantidad de piezas a trasladar. Cada vez que se presione y suelte la entrada C, un contador, se incrementará. Este número lo mostrará en un display 7 segmentos.</p>
+        <p>Una vez ajustada la cantidad de piezas, comienza el proceso activando el interruptor de inicio I.</p>
+        <ol>
+            <li style="padding: 5px 0;">Si se detecta una pieza terminada (con un sensor P):, desciende el cilindro A, se activa automáticamente el vacío capaz de retener la pieza con la ventosa, se eleva la pieza, realiza un giro de 180°</li>
+            <li style="padding: 5px 0;">El cilindro A desciende, desactiva de forma automática el vacío que retiene la pieza con la ventosa, suelta la pieza, se retrae y el brazo manipulador retorna a su posición inicial.</li>
+        </ol>
+        <p>
+            El primer conjunto de movimientos (descenso del cilindro, tomar pieza, ascenso y giro de 180°) 
+            tiene una duración de 2 s; mientras que el segundo conjunto de movimientos (descenso, suelta
+            la pieza, ascenso y giro) tiene una duración de 1 s. Finalizada la cantidad de detecciones configuradas. 
+            Encenderá un led durante 1 segundo y se reiniciará el proceso.
+        </p>
+        <p>
+            Se requiere que represente el proceso a través de un 
+            diagrama de flujo. Utilice la nomenclatura indicada 
+            en la figura 1 (P, C, A) en la elaboración del 
+            algoritmo, (esto es, no se requiere que indique 
+            el pin exacto del microcontrolador, donde se 
+            representaría cada uno de esos elementos)
+        </p>
+        <h5><b>Muestre a través de leds</b>:</h5>
+        <ul>
+            <li>Un Led, el momento en el que el cilindro presente el primer conjunto de movimientos.</li>
+            <li>Un led, el momento en el que el cilindro presente el segundo conjunto de movimientos.</li>
+            <li>Un led que indica que llego a la pieza final</li>
+            <li>Un display 7 segmentos, la cantidad del conteo proveniente del pulsador C, y al momento de la detección de piezas, la cantidad de piezas detectadas por el sensor P.</li>
+        </ul>
+
+        <img
+          class="resp1"
+          style="width: 60%; "
+          src="..\Imagenes\practicas\practica2_1.png"
+          alt="Practica #2"
+        />
+
+        <h5 style="margin-top: 3%;" class="jump" id="laboratorio"><b>LABORATORIO</b>:</h5>
+        <p>Para la implementación del algoritmo elaborado 
+            anteriormente deberá representar el botón para
+            ajuste de la cantidad de piezas C mediante un 
+            pulsador (módulo KY-004) al pin PC1, el botón 
+            de inicio I se representará mediante un interruptor 
+            conectado en el pin PC0, la señal de la pieza 
+            detectada se representará a través 
+            del sensor KY-32. La señal proveniente del 
+            primer conjunto de movimientos (TRASLADA PIEZA) 
+            se representará mediante un led conectado en el pin PB1, la señal 
+            del cilindro cuando presente el segundo conjunto de movimientos 
+            (SUELTA PIEZA Y REGRESA) se representará mediante un led conectado 
+            en el pin PB2. El led para fin de conteo de pieza se representará 
+            en PB3, El display 7 segmentos representará la cantidad de piezas 
+            detectadas por el sensor P, y estará ubicado desde PD2 (el segmento a) 
+            hasta PD7 (segmento f), y PB0 (segmento g).
+        </p>
+
+        <h6><b>Actividades a desarrollar</b>:</h6>
+        <ul>
+            <li>Muestre el prelaboratorio a su profesor(a), quien le interrogará sobre el mismo.</li>
+            <li>Codifique su programa en Assembler, dentro del entorno AVR Studio y ensamble su código hasta que no haya errores.</li>
+            <li>Efectúe la simulación de la aplicación en PROTEUS y verifique el funcionamiento con su profesor(a).</li>
+            <li>Programe el sistema de desarrollo Arduino UNO con la aplicación revisada mediante PROTEUS y verifique su funcionamiento con su profesor(a).</li>
+            <li>Elimine El rebote en el pulsador C. Vuelva a programar la tarjeta ARDUINO UNO y muestre a su profesor</li>
+        </ul>
+
+        <h6 id="3-bucles" class="jump"><b>Rutina de 3 Bucles para aproximadamente 1 segundo de retardo</b></h6>
+        <div class="code_panel">
+            <div id="button1" onclick="CopyToClipboard('code_panel1')"><i class="far fa-copy"></i> copiar código
+            </div>
+            <code id="code_panel1">
+        
+        <span class="originalAVR">DELAY:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R23, 0x42</span> <span class="code_comment">; R0 = 128</span></br>
+        <span class="originalAVR">delay3:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R22, 0xFF</span> <span class="code_comment">; R1 = 255</span></br>
+        <span class="originalAVR">delay2:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R21, 0xFF</span> <span class="code_comment">; R3 = 255</span></br>
+        <span class="originalAVR">delay1:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">DEC </span><span class="originalAVR">R21 </span> <span class="code_comment">; Decrementa R21 en 1</span></br>
+            <span class="define_include" style="margin-left: 3vw;">CPI </span><span class="originalAVR">R21, 0</span></br>
+        <span class="define_include" style="margin-left: 2vw;">BRNE </span><span class="originalAVR">delay1 </span> <span class="code_comment">; si R21 no es 0 entonces salta a delay2</span></br>
+        <span class="define_include" style="margin-left: 2vw;">DEC </span><span class="originalAVR">R22 </span> <span class="code_comment">; Decrementa R22</span></br>
+            <span class="define_include" style="margin-left: 3vw;">CPI </span><span class="originalAVR">R22, 0</span></br>
+        <span class="define_include" style="margin-left: 2vw;">BRNE </span><span class="originalAVR">delay2 </span> <span class="code_comment">; si R22 no es 0 entonces salta a delay1</span></br>
+        <span class="define_include" style="margin-left: 2vw;">DEC </span><span class="originalAVR">R23 </span> <span class="code_comment">; Decrementa R23</span></br>
+            <span class="define_include" style="margin-left: 3vw;">CPI </span><span class="originalAVR">R23, 0</span></br>
+        <span class="define_include" style="margin-left: 2vw;">BRNE </span><span class="originalAVR">delay3 </span> <span class="code_comment">; si R23 no es 0 entonces salta a delay1</span></br>
+        <span class="define_include" style="margin-left: 2vw;">RET </span></br>
+        </code>
+        </div>
+
+        <h6 id="Mostrar" class="jump" style="margin-top: 3%;"><b>Rutina para mostrar en display 7 seg cátodo común el arduino uno.</b></h6>
+        <p>Suponiendo que usa la tabla vista en clase</p>
+        
+        <div class="code_panel">
+            <div id="button1" onclick="CopyToClipboard('code_panel2')"><i class="far fa-copy"></i> copiar código
+            </div>
+            <code id="code_panel2">
+        
+        <span class="originalAVR">MOSTRAR:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">ZH, HIGH(TABLA)</span> <span class="code_comment">; R0 = 128</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">ZL, LOW(TABLA)</span> <span class="code_comment">; R1 = 255</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ADD </span><span class="originalAVR">ZL, CONT</span> <span class="code_comment">; CONT =	el valor que trae del contador correspondiente al numero de pieza detectada por P ó el número de veces que se ha presionado el pulsador C de configuración inicial de conteo de piezas </span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">NUM, Z</span> <span class="code_comment">; NUM = Registro temporal</span></br>
+        <span class="define_include" style="margin-left: 2vw;">CLR </span><span class="originalAVR">R18</span> <span class="code_comment">; R18 registro para manipulación del segmento g del display </span></br>
+        <span class="define_include" style="margin-left: 2vw;">ROL </span><span class="originalAVR">NUM</span> <span class="code_comment">; rota y el MSB va al carry del registro SREG </span></br>
+        <span class="define_include" style="margin-left: 2vw;">ROL </span><span class="originalAVR">NUM</span> <span class="code_comment">; rota nuevamente y el MSB va al carry del registro SREG (valor a enviar al display ya rotado 2 posiciones a la izquierda, para no usar PD1 ni PD0)</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ROL </span><span class="originalAVR">R18</span> <span class="code_comment">; El valor del carry (el segmento g) pasa a r18</span></br>
+        <span class="define_include" style="margin-left: 2vw;">OUT </span><span class="originalAVR">PORTB, R18</span> <span class="code_comment">; se envía a PORTB</span></br>
+        <span class="define_include" style="margin-left: 2vw;">OUT </span><span class="originalAVR">PORTD, NUM</span> <span class="code_comment">; el valor rotado de NUM pasa al PORTD </span></br>
+        <span class="define_include" style="margin-left: 2vw;">RET </span></br>
+
+        <span class="originalAVR">CARGATABLA:</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">ZH, HIGH(TABLA)</span> <span class="code_comment">; R0 = 128</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">ZL, LOW(TABLA)</span> <span class="code_comment">; R1 = 255</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>3F</span> <span class="code_comment">; 0</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>06</span> <span class="code_comment">; 1</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>5B</span> <span class="code_comment">; 2</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>4F</span> <span class="code_comment">; 3</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>66</span> <span class="code_comment">; 4</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>6D</span> <span class="code_comment">; 5</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>7D</span> <span class="code_comment">; 6</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>07</span> <span class="code_comment">; 7</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>FF</span> <span class="code_comment">; 8</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z+, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">LDI </span><span class="originalAVR">R16, <span style="color: red;">$</span>67</span> <span class="code_comment">; 9</span></br>
+        <span class="define_include" style="margin-left: 2vw;">ST </span><span class="originalAVR">Z, R16</span></br>
+        <span class="define_include" style="margin-left: 2vw;">RET </span></br>
+        </code>
+        </div>
+
+
+        <!-- -------------------------------------------------------------------------------------- -->
+      </div>
+
+      <footer
+        class="container-fluid bg-grey"
+        style="padding-top: 0px; padding-left: 0"
+      >
+        <div class="container">
+          <!--primera columna-->
+          <div class="col">
+            <div class="your-item">
+              <img
+                src="../Imagenes/Facultad-de-ingenieria.png"
+                class="logo-footer"
+                style="display: block; margin: 15px auto"
+              />
+              <p class="styleFooter">Universidad de Carabobo</p>
+              <p class="styleFooter">Facultad de Ingeniería</p>
+              <p class="styleFooter">Escuela de Ingenieria Eléctrica</p>
+              <p id="TTO" class="styleFooter">Dpto. de Sistemas y Automática</p>
+              <p class="styleFooter">© 2021</p>
+            </div>
+          </div>
+
+          <!--segunda columna-->
+          <div class="col">
+            <h6
+              id="brand"
+              style="display: block; text-align: center; margin-bottom: 0"
+            >
+              Microprocesadores
+            </h6>
+            <h6 style="display: block; text-align: center; margin-bottom: 20px">
+              SA7E04
+            </h6>
+            <p style="display: block; text-align: center">
+              Prof: Whendy Garcia.
+            </p>
+            <a href="mailto: whendygarcia@gmail.com" class="btn-footer"
+              >Enviar un correo</a
+            ><br />
+            <a href="https://www.arduino.cc/" class="btn-footer" target="_blank"
+              >Ir a: Arduino - Home
+            </a>
+          </div>
+
+          <!--tercera columna-->
+          <div class="col">
+            <h6 style="margin-top: 10%">Búsqueda</h6>
+            <div class="social">
+              <a
+                href="https://instagram.com/electricaing_uc?igshid=1grr9yjuz5rk3"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/groups/35195859789/?ref=share"
+                target="_blank"
+                title="Facebook"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a
+                href="https://twitter.com/electricaing_uc?s=20"
+                target="_blank"
+                title="Twitter"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a
+                href="https://youtube.com/channel/UC-zreC_L2Uqd7vYe4GNi1Hw"
+                target="_blank"
+                title="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+            <form class="form-footer my-3" style="margin-bottom: 0 !important">
+              <input type="text" placeholder="search here...." name="search" />
+              <button id="go"><i class="fa fa-search"></i></button>
+            </form>
+            <p
+              class="subTitle"
+              style="
+                font-style: italic;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                padding-top: 5%;
+              "
+            >
+              Realizado por:
+            </p>
+            <p style="font-style: italic; padding: 0; margin-bottom: 0">
+              Victor Ojeda, Gilberto Virguez
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      
+      <div class="action" onclick="actionToggle()">
+        <span>+</span>
+        <ul
+          style="
+            font-family: 'Roboto', sans-serif;
+          "
+        >
+        <li><a href="#Objetivo-general">Ojetivo general</a></li>
+       <li><a href="#obj-especificos">Objetivos Específicos</a></li>
+       <li><a href="#prelaboratorio">Prelaboratorio</a></li>
+       <li><a href="#laboratorio">Laboratorio</a></li>
+       <li><a href="#3-bucles">Rutina de 3 Bucles para aproximadamente 1 segundo de retardo</a></li>
+        <li><a href="#Mostrar">Rutina para mostrar en display 7 seg catodo comun el arduino uno</a></li>
+    
+        </ul>
+      </div>
+      <!-- End of floating button -->
+    </div>
+  </body>
+</html>

@@ -6,8 +6,10 @@ var conceptShow = document.querySelectorAll(".afterICon + ul");
 var fix = document.querySelector(".device2 .subContent a:nth-child(4)")
 
 var fix2 = document.querySelectorAll(".top-content ul > div:nth-last-child(2) a")
-fix2[1].href = "https://drive.google.com/drive/folders/1hXnww2CZ3BFUEOMJYWd8YNa8wemPPLjK?usp=sharing"
-fix2[2].href = "https://drive.google.com/drive/folders/1tddLM9v0-74Afx7p1AKR-oG34iosshK8?usp=sharing"
+var fix3 = document.querySelectorAll(".device3 a")
+
+fix2[1].href = fix3[0].href = "https://drive.google.com/drive/folders/1hXnww2CZ3BFUEOMJYWd8YNa8wemPPLjK?usp=sharing"
+fix2[2].href = fix3[1].href ="https://drive.google.com/drive/folders/1tddLM9v0-74Afx7p1AKR-oG34iosshK8?usp=sharing"
 
 fix.href = "IDE-Arduino.html";
 /****************************************************************** */
